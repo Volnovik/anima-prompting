@@ -24,27 +24,27 @@ The agent clones the repo into the skills directory (e.g. `~/.dsh/skills/anima-p
 
 ## One-time data setup (per machine)
 
-The skill works without the tag database (it falls back to the bundled starter set and curated lists, and says so); the database makes tag lookups much better. `huggingface_hub` may already be installed on the machine — try your regular Python first, and only fall back to a dedicated venv if it isn't. Run from the skill folder:
+The skill works without the tag database (it falls back to the bundled starter set and curated lists, and says so); the database makes tag lookups much better. The Hugging Face CLI (the `hf` command) may already be installed on the machine — try it first, and only fall back to a dedicated venv if it isn't. (Note: with `huggingface_hub` ≥ 2.0, `python -m huggingface_hub` no longer works — the CLI moved to a standalone `hf` package, which is not importable.) Run from the skill folder:
 
 ```powershell
-# Windows — regular Python first
-python -m huggingface_hub download kierarkia/danbooru-wiki-2026 --include "*.jsonl" --local-dir data
+# Windows — machine `hf` CLI first
+hf download --repo-type dataset kierarkia/danbooru-wiki-2026 --include "*.jsonl" --local-dir data
 python scripts/transform_tags.py
-# ...only if the download failed because huggingface_hub is not installed:
+# ...only if `hf` is not installed on the machine:
 python -m venv .hfvenv
-.\.hfvenv\Scripts\pip install -U "huggingface_hub[cli]"
-.\.hfvenv\Scripts\python.exe -m huggingface_hub download kierarkia/danbooru-wiki-2026 --include "*.jsonl" --local-dir data
+.\.hfvenv\Scripts\pip install -U "hf"
+.\.hfvenv\Scripts\hf.exe download --repo-type dataset kierarkia/danbooru-wiki-2026 --include "*.jsonl" --local-dir data
 python scripts/transform_tags.py
 ```
 
 ```bash
-# Linux/macOS — regular Python first
-python3 -m huggingface_hub download kierarkia/danbooru-wiki-2026 --include "*.jsonl" --local-dir data
+# Linux/macOS — machine `hf` CLI first
+hf download --repo-type dataset kierarkia/danbooru-wiki-2026 --include "*.jsonl" --local-dir data
 python3 scripts/transform_tags.py
-# ...only if the download failed because huggingface_hub is not installed:
+# ...only if `hf` is not installed on the machine:
 python3 -m venv .hfvenv
-./.hfvenv/bin/pip install -U "huggingface_hub[cli]"
-./.hfvenv/bin/python -m huggingface_hub download kierarkia/danbooru-wiki-2026 --include "*.jsonl" --local-dir data
+./.hfvenv/bin/pip install -U "hf"
+./.hfvenv/bin/hf download --repo-type dataset kierarkia/danbooru-wiki-2026 --include "*.jsonl" --local-dir data
 python3 scripts/transform_tags.py
 ```
 

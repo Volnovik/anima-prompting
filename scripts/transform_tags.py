@@ -40,7 +40,7 @@ def resolve_input() -> str:
         sys.exit(f"no raw dataset in {DATA_DIR} (only the transformed {PROMPT_NAME}); "
                  f"download the raw file first — see SKILL.md — or pass it as [input.jsonl]")
     sys.exit(f"no dataset in {DATA_DIR} — run the one-time setup from SKILL.md "
-             f"(hf download kierarkia/danbooru-wiki-2026 --include '*.jsonl' --local-dir {DATA_DIR})")
+             f"(hf download --repo-type dataset kierarkia/danbooru-wiki-2026 --include '*.jsonl' --local-dir {DATA_DIR})")
 
 
 def main() -> int:

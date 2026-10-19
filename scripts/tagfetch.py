@@ -42,7 +42,7 @@ def default_file() -> str:
               f"run scripts/transform_tags.py first", file=sys.stderr)
         return str(raw[-1])
     sys.exit(f"no dataset in {DATA_DIR} — run the one-time setup from SKILL.md "
-             f"(hf download kierarkia/danbooru-wiki-2026 --include '*.jsonl' --local-dir {DATA_DIR})")
+             f"(hf download --repo-type dataset kierarkia/danbooru-wiki-2026 --include '*.jsonl' --local-dir {DATA_DIR})")
 
 
 def canon(s: str) -> str:
