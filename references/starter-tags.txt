@@ -1,0 +1,1653 @@
+# ANIMA STARTER TAGS
+# Parsed from danbooru tag group wiki pages, Oct 2026.
+# Line format: group::section::tag   (section may contain subcategory after /)
+# Tag names are prompt-ready (lowercase, spaces). Copy into prompts verbatim.
+backgrounds::Colors::aqua background
+backgrounds::Colors::black background
+backgrounds::Colors::blue background
+backgrounds::Colors::brown background
+backgrounds::Colors::green background
+backgrounds::Colors::grey background
+backgrounds::Colors::orange background
+backgrounds::Colors::pink background
+backgrounds::Colors::purple background
+backgrounds::Colors::red background
+backgrounds::Colors::white background
+backgrounds::Colors::yellow background
+backgrounds::Colors::simple background
+backgrounds::Colors::transparent background
+backgrounds::Multiple Colors::colorful background
+backgrounds::Multiple Colors::gradient background
+backgrounds::Multiple Colors::greyscale with colored background
+backgrounds::Multiple Colors::halftone background
+backgrounds::Multiple Colors::monochrome background
+backgrounds::Multiple Colors::rainbow background
+backgrounds::Multiple Colors::heaven condition
+backgrounds::Multiple Colors::three-toned background
+backgrounds::Multiple Colors::two-tone background
+backgrounds::Multiple Colors::multicolored background
+backgrounds::Patterns::argyle background
+backgrounds::Patterns::checkered background
+backgrounds::Patterns::cross background
+backgrounds::Patterns::dithered background
+backgrounds::Patterns::dotted background
+backgrounds::Patterns::gingham background
+backgrounds::Patterns::grid background
+backgrounds::Patterns::honeycomb background
+backgrounds::Patterns::lace background
+backgrounds::Patterns::marble background
+backgrounds::Patterns::mosaic background
+backgrounds::Patterns::patterned background
+backgrounds::Patterns::plaid background
+backgrounds::Patterns::polka dot background
+backgrounds::Patterns::spiral background
+backgrounds::Patterns::splatter background
+backgrounds::Patterns::striped background
+backgrounds::Patterns::diagonal-striped background
+backgrounds::Patterns::vertical-striped background
+backgrounds::Patterns::sunburst background
+backgrounds::Patterns::triangle background
+backgrounds::Descriptive::abstract background
+backgrounds::Descriptive::blurry background
+backgrounds::Descriptive::bright background
+backgrounds::Descriptive::dark background
+backgrounds::Descriptive::drama layer
+backgrounds::Objects and Nouns::animal background
+backgrounds::Objects and Nouns::animal
+backgrounds::Objects and Nouns::bow background
+backgrounds::Objects and Nouns::bow
+backgrounds::Objects and Nouns::bubble background
+backgrounds::Objects and Nouns::bubble
+backgrounds::Objects and Nouns::butterfly background
+backgrounds::Objects and Nouns::butterfly
+backgrounds::Objects and Nouns::card background
+backgrounds::Objects and Nouns::playing card
+backgrounds::Objects and Nouns::cherry background
+backgrounds::Objects and Nouns::cherry
+backgrounds::Objects and Nouns::cloud background
+backgrounds::Objects and Nouns::cloud
+backgrounds::Objects and Nouns::fiery background
+backgrounds::Objects and Nouns::fire
+backgrounds::Objects and Nouns::flag background
+backgrounds::Objects and Nouns::flag
+backgrounds::Objects and Nouns::floral background
+backgrounds::Objects and Nouns::flower
+backgrounds::Objects and Nouns::rose background
+backgrounds::Objects and Nouns::rose
+backgrounds::Objects and Nouns::food-themed background
+backgrounds::Objects and Nouns::food
+backgrounds::Objects and Nouns::fruit background
+backgrounds::Objects and Nouns::fruit
+backgrounds::Objects and Nouns::strawberry background
+backgrounds::Objects and Nouns::strawberry
+backgrounds::Objects and Nouns::heart background
+backgrounds::Objects and Nouns::heart
+backgrounds::Objects and Nouns::leaf background
+backgrounds::Objects and Nouns::leaf
+backgrounds::Objects and Nouns::lightning background
+backgrounds::Objects and Nouns::lightning
+backgrounds::Objects and Nouns::paw print background
+backgrounds::Objects and Nouns::paw print
+backgrounds::Objects and Nouns::poke ball background
+backgrounds::Objects and Nouns::poke ball
+backgrounds::Objects and Nouns::rabbit background
+backgrounds::Objects and Nouns::rabbit
+backgrounds::Objects and Nouns::snowflake background
+backgrounds::Objects and Nouns::snowflakes
+backgrounds::Objects and Nouns::sofmap background
+backgrounds::Objects and Nouns::sofmap
+backgrounds::Objects and Nouns::sparkle background
+backgrounds::Objects and Nouns::sparkle
+backgrounds::Objects and Nouns::spider web background
+backgrounds::Objects and Nouns::spider web
+backgrounds::Objects and Nouns::star symbol background
+backgrounds::Objects and Nouns::star (symbol)
+backgrounds::Objects and Nouns::starry sky background
+backgrounds::Objects and Nouns::star (sky)
+backgrounds::Objects and Nouns::text background
+backgrounds::Objects and Nouns::text focus
+backgrounds::Objects and Nouns::weapon background
+backgrounds::Objects and Nouns::weapon
+backgrounds::Mediums::3d background
+backgrounds::Mediums::ai-generated background
+backgrounds::Mediums::collage background
+backgrounds::Mediums::paneled background
+backgrounds::Mediums::photo background
+backgrounds::Mediums::game screenshot background
+backgrounds::Mediums::paper background
+backgrounds::Mediums::newsprint background
+backgrounds::Mediums::newspaper
+backgrounds::Mediums::screenshot background
+backgrounds::Mediums::sketch background
+backgrounds::Mediums::watercolor background
+backgrounds::Background Related::backlighting
+backgrounds::Background Related::blending
+backgrounds::Background Related::border
+backgrounds::Background Related::chibi inset
+backgrounds::Background Related::horizon
+backgrounds::Background Related::imageboard colors
+backgrounds::Background Related::projected inset
+backgrounds::Background Related::step and repeat
+backgrounds::Background Related::zoom layer
+body parts::Head::ear focus
+body parts::Head::eyebrows
+body parts::Head::eyelashes
+body parts::Head::forehead
+body parts::Head/forehead::forehead mark
+body parts::Head/forehead::beard
+body parts::Head/forehead::mustache
+body parts::Head::nose
+body parts::Head::head wings
+body parts::Head::lips
+body parts::Head::nape
+body parts::Head::tongue
+body parts::Head/tongue::long tongue
+body parts::Torso::areolae
+body parts::Torso/areolae::large areolae
+body parts::Torso/areolae::glands of montgomery
+body parts::Torso::armpits
+body parts::Torso::back
+body parts::Torso/back::median furrow
+body parts::Torso::breasts
+body parts::Torso::collarbone
+body parts::Torso::heart
+body parts::Torso::lungs
+body parts::Torso/lungs::long neck
+body parts::Torso::nipples
+body parts::Torso/nipples::covered nipples
+body parts::Torso/nipples::inverted nipples
+body parts::Torso/nipples::no nipples
+body parts::Torso/nipples::puffy nipples
+body parts::Torso/nipples::small nipples
+body parts::Torso::pectorals
+body parts::Torso::ribs
+body parts::Torso::anus
+body parts::Torso::ass
+body parts::Torso::cloaca
+body parts::Torso::dimples of venus
+body parts::Torso::groin
+body parts::Torso/groin::hip dips
+body parts::Torso/groin::wide hips
+body parts::Torso::intestines
+body parts::Torso::linea alba
+body parts::Torso::liver
+body parts::Torso::narrow waist
+body parts::Torso::pubic hair
+body parts::Torso::pussy
+body parts::Torso/pussy::cleft of venus
+body parts::Torso/pussy::clitoris
+body parts::Torso/pussy::fat mons
+body parts::Torso/pussy::mons pubis
+body parts::Torso/pussy::no pussy
+body parts::Torso::penis
+body parts::Torso/penis::animal penis
+body parts::Torso/animal penis::dog penis
+body parts::Torso/animal penis::dolphin penis
+body parts::Torso/animal penis::horse penis
+body parts::Torso/animal penis::knotted penis
+body parts::Torso/animal penis::pig penis
+body parts::Torso/animal penis::snake penis
+body parts::Torso/animal penis::spiked penis
+body parts::Torso/penis::bulge
+body parts::Torso/bulge::covered penis
+body parts::Torso/bulge::erection under clothes
+body parts::Torso/penis::disembodied penis
+body parts::Torso/penis::erection
+body parts::Torso/penis::extra penises
+body parts::Torso/penis::foreskin
+body parts::Torso/foreskin::phimosis
+body parts::Torso/penis::flaccid
+body parts::Torso/penis::gigantic penis
+body parts::Torso/penis::huge penis
+body parts::Torso/penis::large penis
+body parts::Torso/penis::small penis
+body parts::Torso/penis::veiny penis
+body parts::Torso::perineum
+body parts::Torso::prostate
+body parts::Torso::stomach
+body parts::Torso/stomach::abs
+body parts::Torso/stomach::belly
+body parts::Torso/stomach::navel
+body parts::Torso/navel::covered navel
+body parts::Torso/stomach::obliques
+body parts::Torso/stomach::stomach (organ)
+body parts::Torso::testicles
+body parts::Torso/testicles::covered testicles
+body parts::Torso/testicles::small testicles
+body parts::Torso/testicles::large testicles
+body parts::Torso/testicles::huge testicles
+body parts::Torso/testicles::gigantic testicles
+body parts::Torso::uterus
+body parts::Torso/uterus::cervix
+body parts::Appendages::thick arms
+body parts::Appendages::biceps
+body parts::Appendages::feet
+body parts::Appendages/feet::bad feet
+body parts::Appendages/feet::barefoot
+body parts::Appendages/feet::dirty feet
+body parts::Appendages/feet::soles
+body parts::Appendages/feet::palms
+body parts::Appendages/feet::doll joints
+body parts::Appendages/feet::robot joints
+body parts::Appendages::knees
+body parts::Appendages/knees::kneepits
+body parts::Appendages::legs
+body parts::Appendages/legs::digitigrade
+body parts::Appendages/digitigrade::reverse-jointed legs
+body parts::Appendages/legs::long legs
+body parts::Appendages/legs::slim legs
+body parts::Appendages::tail
+body parts::Appendages::tentacles
+body parts::Appendages::thighs
+body parts::Appendages/thighs::groin tendon
+body parts::Appendages/thighs::thick thighs
+body parts::Appendages::toes
+body parts::Appendages/toes::ninja toes
+body parts::Appendages::wings
+character count::Common::1girl
+character count::Common::2girls
+character count::Common::3girls
+character count::Common::4girls
+character count::Common::5girls
+character count::Common::6+girls
+character count::Common::1boy
+character count::Common::2boys
+character count::Common::3boys
+character count::Common::4boys
+character count::Common::5boys
+character count::Common::6+boys
+character count::Common::1other
+character count::Common::2others
+character count::Common::3others
+character count::Common::4others
+character count::Common::5others
+character count::Common::6+others
+character count::Common::multiple girls
+character count::Common::multiple boys
+character count::Common::multiple others
+character count::Common::solo
+character count::Common::solo focus
+character count::Common::male focus
+character count::Common::other focus
+character count::Common::people
+character count::Common::crowd
+face tags::Main/multiple expressions::expression chart
+face tags::Emotions::angry
+face tags::Emotions/angry::anger vein
+face tags::Emotions/angry::annoyed
+face tags::Emotions/angry::clenched teeth
+face tags::Emotions/angry::glaring
+face tags::Emotions/angry::scowl
+face tags::Emotions::blush
+face tags::Emotions/blush::blush stickers
+face tags::Emotions/blush::embarrassed
+face tags::Emotions/blush::full-face blush
+face tags::Emotions/blush::nose blush
+face tags::Emotions::bored
+face tags::Emotions::closed eyes
+face tags::Emotions::confident
+face tags::Emotions::confused
+face tags::Emotions::crazy
+face tags::Emotions::despair
+face tags::Emotions::determined
+face tags::Emotions::disappointed
+face tags::Emotions::disdain
+face tags::Emotions::disgust
+face tags::Emotions::distress
+face tags::Emotions::drunk
+face tags::Emotions::ecstasy
+face tags::Emotions::envy
+face tags::Emotions::excited
+face tags::Emotions::exhausted
+face tags::Emotions::expressionless
+face tags::Emotions::facepalm
+face tags::Emotions::flustered
+face tags::Emotions::frustrated
+face tags::Emotions::furrowed brow
+face tags::Emotions::grimace
+face tags::Emotions::guilt
+face tags::Emotions::happy
+face tags::Emotions::kubrick stare
+face tags::Emotions::lonely
+face tags::Emotions::nervous
+face tags::Emotions::nosebleed
+face tags::Emotions::one eye closed
+face tags::Emotions::round mouth
+face tags::Emotions/round mouth::open mouth
+face tags::Emotions/round mouth::parted lips
+face tags::Emotions::pain
+face tags::Emotions::pout
+face tags::Emotions::puffy cheeks
+face tags::Emotions::raised eyebrow
+face tags::Emotions::raised eyebrows
+face tags::Emotions::raised inner eyebrows
+face tags::Emotions::rape face
+face tags::Emotions::rolling eyes
+face tags::Emotions::sad
+face tags::Emotions/sad::depressed
+face tags::Emotions/sad::frown
+face tags::Emotions/sad::gloom (expression)
+face tags::Emotions/sad::tears
+face tags::Emotions::scared
+face tags::Emotions/scared::panicking
+face tags::Emotions/scared::worried
+face tags::Emotions::serious
+face tags::Emotions::shaded face
+face tags::Emotions::shy
+face tags::Emotions::sigh
+face tags::Emotions::skeptical
+face tags::Emotions::sleepy
+face tags::Emotions::squinting
+face tags::Emotions::sulking
+face tags::Emotions::surprised
+face tags::Emotions::thinking
+face tags::Emotions/thinking::pensive
+face tags::Emotions::unamused
+face tags::Emotions::v-shaped eyebrows
+face tags::Emotions::wince
+face tags::Emotions::struggling
+face tags::Sexual::afterglow
+face tags::Sexual::ahegao
+face tags::Sexual::fucked silly
+face tags::Sexual::aroused
+face tags::Sexual::naughty face
+face tags::Sexual::ohhoai
+face tags::Sexual::ohogao
+face tags::Sexual::seductive smile
+face tags::Sexual::torogao
+face tags::Sexual/torogao::ass-to-mouth
+face tags::Sexual/torogao::condom in mouth
+face tags::Sexual/torogao::cum in mouth
+face tags::Sexual/torogao::oral invitation
+face tags::Sexual/torogao::pussy juice in mouth
+face tags::Sexual/torogao::unzipping with mouth
+face tags::Smile:::d
+face tags::Smile::crazy smile
+face tags::Smile::evil smile
+face tags::Smile::fingersmile
+face tags::Smile::forced smile
+face tags::Smile::glasgow smile
+face tags::Smile::grin
+face tags::Smile/grin::evil grin
+face tags::Smile::light smile
+face tags::Smile::sad smile
+face tags::Smile::smile
+face tags::Smile::stifled laugh
+face tags::Smug::doyagao
+face tags::Smug::smirk
+face tags::Smug::smug
+face tags::Smug::troll face
+face tags::Surprised / Scared / Sad::^^^
+face tags::Surprised / Scared / Sad::color drain
+face tags::Surprised / Scared / Sad::horrified
+face tags::Surprised / Scared / Sad::screaming
+face tags::Surprised / Scared / Sad::sobbing
+face tags::Surprised / Scared / Sad::traumatized
+face tags::Surprised / Scared / Sad::turn pale
+face tags::Surprised / Scared / Sad::wavy mouth
+face tags::Emotes::;)
+face tags::Emotes/:d::;d
+face tags::Emotes/:d::xd
+face tags::Emotes/:d::d:
+face tags::Emotes:::3
+face tags::Emotes/:3::;3
+face tags::Emotes/:3::x3
+face tags::Emotes/:3::3:
+face tags::Emotes/:3::0w0
+face tags::Emotes/:3::uwu
+face tags::Emotes:::p
+face tags::Emotes/:p::;p
+face tags::Emotes:::q
+face tags::Emotes/:q::;q
+face tags::Emotes::>:)
+face tags::Emotes::>:(
+face tags::Emotes:::t
+face tags::Emotes/:t:::エ
+face tags::Emotes:::/
+face tags::Emotes:::|
+face tags::Emotes::x mouth
+face tags::Emotes:::c
+face tags::Emotes::c:
+face tags::Emotes:::<
+face tags::Emotes/:<::;<
+face tags::Emotes:::>
+face tags::Emotes:::>=
+face tags::Emotes:::o
+face tags::Emotes/:o::;o
+face tags::Emotes::o3o
+face tags::Emotes/o3o::>3<
+face tags::Emotes::o o
+face tags::Emotes/o o::0 0
+face tags::Emotes/o o::. .
+face tags::Emotes::^ ^
+face tags::Emotes/. .::\(^o^)/
+face tags::Emotes/^ ^::^q^
+face tags::Emotes::> <
+face tags::Emotes::@ @
+face tags::Emotes::> @
+face tags::Emotes::+ +
+face tags::Emotes::+ -
+face tags::Emotes::= =
+face tags::Emotes::t t
+face tags::Emotes::<o> <o>
+face tags::Emotes::<|> <|>
+face tags::Drawing styles::eyebrows
+face tags::Drawing styles/eyebrows::eyebrows hidden by hair
+face tags::Drawing styles/eyebrows::mismatched eyebrows
+face tags::Drawing styles/eyebrows::constricted pupils
+face tags::Drawing styles/eyebrows::cross-eyed
+face tags::Drawing styles/eyebrows::wide-eyed
+face tags::Drawing styles::nose
+face tags::Drawing styles/nose::dot nose
+face tags::Drawing styles/nose::no nose
+face tags::Drawing styles/nose::chestnut mouth
+face tags::Drawing styles/nose::diamond mouth
+face tags::Drawing styles/nose::dot mouth
+face tags::Drawing styles/nose::glowing mouth
+face tags::Drawing styles/nose::heart in mouth
+face tags::Drawing styles/nose::heart-shaped mouth
+face tags::Drawing styles/nose::hollow mouth
+face tags::Drawing styles/nose::mouth drool
+face tags::Drawing styles/nose::no mouth
+face tags::Drawing styles/nose::peanut mouth
+face tags::Drawing styles/nose::rectangular mouth
+face tags::Drawing styles/nose::sideways mouth
+face tags::Drawing styles/nose::snake mouth
+face tags::Drawing styles/nose::split mouth
+face tags::Drawing styles/nose::stitched mouth
+face tags::Drawing styles/nose::text in mouth
+face tags::Drawing styles/nose::triangle mouth
+face tags::Drawing styles/nose::yurie mouth
+face tags::Drawing styles/nose::faceless
+face tags::Drawing styles/nose::hole in face
+face tags::Drawing styles/nose::mob face
+face tags::Drawing styles/nose::void face
+face tags::Meme faces::angry dog noises
+face tags::Meme faces::awesome face
+face tags::Meme faces::essex face
+face tags::Meme faces::excalibur face
+face tags::Meme faces::gyate gyate
+face tags::Meme faces::henohenomoheji
+face tags::Meme faces::nonowa
+face tags::Meme faces::smiley face
+face tags::Meme faces::uso da
+face tags::Misc::fang
+face tags::Misc::foodgasm
+face tags::Misc::portrait
+face tags::Misc::profile
+face tags::Looking at...::breast awe
+face tags::Looking at...::food awe
+face tags::Looking at...::muscle awe
+face tags::Looking at...::penis awe
+face tags::Looking at...::staring
+hair::Actions::biting hair
+hair::Actions::eating hair
+hair::Actions::hairdressing
+hair::Actions/hairdressing::multiple hairdressing
+hair::Actions/hairdressing::braiding hair
+hair::Actions/hairdressing::cutting hair
+hair::Actions/cutting hair::cutting another's hair
+hair::Actions/cutting hair::cutting own hair
+hair::Actions/cutting hair::heartbreak haircut
+hair::Actions/cutting hair::severed hair
+hair::Actions/hairdressing::brushing hair
+hair::Actions/brushing hair::brushing another's hair
+hair::Actions/brushing hair::brushing own hair
+hair::Actions/hairdressing::tying hair
+hair::Actions/hairdressing::untying hair
+hair::Actions::hand in another's hair
+hair::Actions/hand in another's hair::hands in another's hair
+hair::Actions/hand in another's hair::holding another's hair
+hair::Actions/hand in another's hair::grabbing another's hair
+hair::Actions/grabbing another's hair::grabbing another's twintails
+hair::Actions/grabbing another's twintails::grabbing both twintails
+hair::Actions/grabbing another's twintails::grabbing one of another's twintails
+hair::Actions/hand in another's hair::playing with another's hair
+hair::Actions/hand in another's hair::ruffling hair
+hair::Actions::hand in own hair
+hair::Actions/hand in own hair::hands in own hair
+hair::Actions/hand in own hair::holding own hair
+hair::Actions/hand in own hair::grabbing own hair
+hair::Actions/hand in own hair::playing with own hair
+hair::Actions/hand in own hair::adjusting hair
+hair::Actions/hand in own hair::bunching hair
+hair::Actions/hand in own hair::hair flip
+hair::Actions/hand in own hair::hair lift
+hair::Actions/hand in own hair::tucking hair
+hair::Actions/hand in own hair::twirling hair
+hair::Actions::hairjob
+hair::Actions/hairjob::cooperative hairjob
+hair::Actions/hairjob::hair on penis
+hair::Actions::licking another's hair
+hair::Actions::kissing hair
+hair::Actions::smelling hair
+hair::Actions::strangling with hair
+hair::Actions::washing hair
+hair::Actions::whipping hair
+hair::Objects::comb
+hair::Objects::hair brush
+hair::Objects::hair rollers
+hair::Objects::shampoo
+hair::Objects::hair dryer
+hair::Objects::curling iron
+hair::Objects::hair straightener
+hair::Objects::scissors
+hair::Objects::hair clipper
+hair::Objects::straight razor
+hair::Objects::barber cape
+hair::Objects::barber chair
+hair::Objects::arrow through hair
+hair::Objects::bun cover
+hair::Objects/bun cover::hairpods
+hair::Objects::hair extensions
+hair::Objects/hair extensions::cyberlox
+hair::Objects::hair ornament
+hair::Objects/hair ornament::hair bell
+hair::Objects/hair ornament::hair bobbles
+hair::Objects/hair ornament::hair bow
+hair::Objects/hair bow::hair ribbon
+hair::Objects/hair ornament::hairclip
+hair::Objects/hair ornament::hair flower
+hair::Objects/hair ornament::hair tubes
+hair::Objects/hair tubes::frilled hair tubes
+hair::Objects/hair tubes::single hair tube
+hair::Objects/hair ornament::kanzashi
+hair::Objects/hair ornament::hair stick
+hair::Objects::hair tie
+hair::Objects::hairband
+hair::Objects::hair weapon
+hair::Objects::headband
+hair::Objects::knife in hair
+hair::Objects::scrunchie
+hair::Objects::wig
+hair::Facial hair::facial hair
+hair::Facial hair/facial hair::beard
+hair::Facial hair/beard::bearded girl
+hair::Facial hair/facial hair::goatee
+hair::Facial hair/facial hair::mustache
+hair::Facial hair/mustache::fake mustache
+hair::Facial hair/facial hair::stubble
+hair::Fantasy::cloud hair
+hair::Fantasy::crystal hair
+hair::Fantasy::energy hair
+hair::Fantasy::feather hair
+hair::Fantasy::fiery hair
+hair::Fantasy::food-themed hair
+hair::Fantasy::glowing hair
+hair::Fantasy::intestine hair
+hair::Fantasy::liquid hair
+hair::Fantasy::mechanical hair
+hair::Fantasy::plant hair
+hair::Fantasy::prehensile hair
+hair::Fantasy/prehensile hair::helicopter hair
+hair::Fantasy/prehensile hair::tentacle hair
+hair::Fantasy/prehensile hair::living hair
+hair::Fantasy/living hair::snake hair
+hair::Fantasy::ribbon hair
+hair::Fantasy::slime hair
+hair::Fantasy::starry hair
+hair::Miscellaneous::blood in hair
+hair::Miscellaneous::cum on hair
+hair::Miscellaneous::bound hair
+hair::Miscellaneous::burnt hair
+hair::Miscellaneous::convenient hair
+hair::Miscellaneous/convenient hair::hair bikini
+hair::Miscellaneous/convenient hair::hair over breasts
+hair::Miscellaneous/convenient hair::hair over one breast
+hair::Miscellaneous/convenient hair::hair over crotch
+hair::Miscellaneous::expressive hair
+hair::Miscellaneous::floating hair
+hair::Miscellaneous::hair around arms
+hair::Miscellaneous::hair around ear
+hair::Miscellaneous::hair around horn
+hair::Miscellaneous/hair around horn::hair on horn
+hair::Miscellaneous::hair around neck
+hair::Miscellaneous::hair around own leg
+hair::Miscellaneous::hair bondage
+hair::Miscellaneous::hair in own mouth
+hair::Miscellaneous::hair spread out
+hair::Miscellaneous::hair hanging down
+hair::Miscellaneous::heart-shaped hair
+hair::Miscellaneous::lone nape hair
+hair::Miscellaneous::loose hair strand
+hair::Miscellaneous::naturally detached hair
+hair::Miscellaneous::symbol-shaped hair
+hair::Miscellaneous::wet hair
+image composition::View Angle::dutch angle
+image composition::View Angle::from above
+image composition::View Angle::from behind
+image composition::View Angle::from below
+image composition::View Angle::from side
+image composition::View Angle::high up
+image composition::View Angle::multiple views
+image composition::View Angle::sideways
+image composition::View Angle::straight-on
+image composition::View Angle::upside-down
+image composition::Perspective/Depth::atmospheric perspective
+image composition::Perspective/Depth::fisheye
+image composition::Perspective/Depth::panorama
+image composition::Perspective/Depth::perspective
+image composition::Perspective/Depth::vanishing point
+image composition::Perspective/Depth::variations
+image composition::Composition::afterimage
+image composition::Composition::border
+image composition::Composition/border::fading border
+image composition::Composition/border::inset border
+image composition::Composition/border::ornate border
+image composition::Composition/border::outside border
+image composition::Composition/border::rounded corners
+image composition::Composition/border::viewfinder
+image composition::Composition::chart
+image composition::Composition/chart::bust chart
+image composition::Composition/chart::character chart
+image composition::Composition/chart::reference sheet
+image composition::Composition/chart::diagram
+image composition::Composition/chart::move chart
+image composition::Composition/chart::relationship graph
+image composition::Composition/chart::seating chart
+image composition::Composition/chart::stats
+image composition::Composition::collage
+image composition::Composition::column lineup
+image composition::Composition::diorama
+image composition::Composition::faux figurine
+image composition::Composition::from outside
+image composition::Composition::glitch
+image composition::Composition::isometric
+image composition::Composition::letterboxed
+image composition::Composition/letterboxed::pillarboxed
+image composition::Composition::lineup
+image composition::Composition::mosaic art
+image composition::Composition/mosaic art::photomosaic
+image composition::Composition::negative space
+image composition::Composition::omake
+image composition::Composition::out of frame
+image composition::Composition/out of frame::fake scrollbar
+image composition::Composition/out of frame::out-of-frame censoring
+image composition::Composition::partially underwater shot
+image composition::Composition::pov
+image composition::Composition::social media composition
+image composition::Composition::symmetry
+image composition::Composition/symmetry::polar opposites
+image composition::Composition/symmetry::rotational symmetry
+image composition::Composition::tachi-e
+image composition::Composition::trim marks
+image composition::Composition::zoom layer
+image composition::Composition/zoom layer::projected inset
+image composition::Format::3d
+image composition::Format::anime screenshot
+image composition::Format::artbook
+image composition::Format::calendar (medium)
+image composition::Format::card (medium)
+image composition::Format::comic
+image composition::Format/comic::1koma
+image composition::Format/comic::2koma
+image composition::Format/comic::3koma
+image composition::Format/comic::4koma
+image composition::Format/4koma::multiple 4koma
+image composition::Format/comic::5koma
+image composition::Format/comic::borderless panels
+image composition::Format/comic::left-to-right manga
+image composition::Format/comic::right-to-left comic
+image composition::Format/comic::silent comic
+image composition::Format::cover
+image composition::Format/cover::album cover
+image composition::Format/cover::character single
+image composition::Format/cover::cover page
+image composition::Format/cover::doujin cover
+image composition::Format/cover::dvd cover
+image composition::Format/cover::fake cover
+image composition::Format/cover::magazine cover
+image composition::Format/cover::manga cover
+image composition::Format/cover::video game cover
+image composition::Format::fake screenshot
+image composition::Format/fake screenshot::fake phone screenshot
+image composition::Format::game asset
+image composition::Format::game screenshot
+image composition::Format::gyotaku (medium)
+image composition::Format::high dynamic range
+image composition::Format::highres
+image composition::Format/highres::absurdres
+image composition::Format/absurdres::incredibly absurdres
+image composition::Format/highres::lowres
+image composition::Format::icon
+image composition::Format/icon::logo
+image composition::Format::kirigami
+image composition::Format::lineart
+image composition::Format/lineart::no lineart
+image composition::Format/lineart::outline
+image composition::Format::oekaki
+image composition::Format::official art
+image composition::Format::phonecard
+image composition::Format::photo
+image composition::Format/photo::papercraft
+image composition::Format/papercraft::paper child
+image composition::Format/papercraft::paper cutout
+image composition::Format::pixel art
+image composition::Format::postcard
+image composition::Format::poster
+image composition::Format::shitajiki
+image composition::Format::tall image
+image composition::Format::tegaki
+image composition::Format::transparent background
+image composition::Format::triptych (art)
+image composition::Format::thumbnail collage
+image composition::Format::vector trace
+image composition::Format/vector trace::official wallpaper
+image composition::Format::wide image
+image composition::Subject matter::cityscape
+image composition::Subject matter::group picture
+image composition::Subject matter::iei
+image composition::Subject matter::landscape
+image composition::Subject matter::nature
+image composition::Subject matter::no humans
+image composition::Subject matter::off-topic
+image composition::Subject matter::scenery
+image composition::Subject matter::still life
+image composition::Subject matter/still life::animal focus
+image composition::Subject matter/still life::armpit focus
+image composition::Subject matter/still life::ass focus
+image composition::Subject matter/still life::back focus
+image composition::Subject matter/still life::book focus
+image composition::Subject matter/still life::breast focus
+image composition::Subject matter/still life::cloud focus
+image composition::Subject matter/still life::eye focus
+image composition::Subject matter/still life::food focus
+image composition::Subject matter/still life::foot focus
+image composition::Subject matter/still life::hand focus
+image composition::Subject matter/still life::hip focus
+image composition::Subject matter/still life::male focus
+image composition::Subject matter/still life::monster focus
+image composition::Subject matter/still life::navel focus
+image composition::Subject matter/still life::object focus
+image composition::Subject matter/still life::other focus
+image composition::Subject matter/still life::plant focus
+image composition::Subject matter/still life::pectoral focus
+image composition::Subject matter/still life::penis focus
+image composition::Subject matter/still life::solo focus
+image composition::Subject matter/still life::vehicle focus
+image composition::Subject matter/still life::text focus
+image composition::Subject matter/still life::thigh focus
+image composition::Subject matter/still life::weapon focus
+image composition::Subject matter/still life::wind chime focus
+image composition::Subject matter::portrait
+image composition::Subject matter::upper body
+image composition::Subject matter::cowboy shot
+image composition::Subject matter::feet out of frame
+image composition::Subject matter::full body
+image composition::Subject matter::wide shot
+image composition::Subject matter::very wide shot
+image composition::Subject matter::lower body
+image composition::Subject matter::head out of frame
+image composition::Subject matter::eyes out of frame
+image composition::Subject matter::arm out of frame
+image composition::Subject matter::foot out of frame
+image composition::Subject matter::knees out of frame
+image composition::Subject matter::close-up
+image composition::Subject matter/close-up::cropped legs
+image composition::Subject matter/close-up::cropped torso
+image composition::Subject matter/close-up::cropped arms
+image composition::Subject matter/close-up::cropped shoulders
+image composition::Subject matter/close-up::cropped head
+image composition::Subject matter::cut-in
+image composition::Subject matter::profile
+image composition::Subject matter/profile::group profile
+image composition::Subject matter::split crop
+image composition::Styles::abstract
+image composition::Styles::art deco
+image composition::Styles::art nouveau
+image composition::Styles::fake photograph
+image composition::Styles::fine art parody
+image composition::Styles::flame painter
+image composition::Styles::impressionism
+image composition::Styles::ligne claire
+image composition::Styles::minimalism
+image composition::Styles::nihonga
+image composition::Styles::ink wash painting
+image composition::Styles::ukiyo-e
+image composition::Styles::painterly
+image composition::Styles::realistic
+image composition::Styles::photorealistic
+image composition::Styles::sketch
+image composition::Styles::surreal
+image composition::Styles::traditional media
+image composition::Styles::faux traditional media
+image composition::Styles::style parody
+image composition::Styles::unfinished
+image composition::Techniques::blending
+image composition::Techniques::bloom
+image composition::Techniques::bokeh
+image composition::Techniques::caustics
+image composition::Techniques::chiaroscuro
+image composition::Techniques::chromatic aberration
+image composition::Techniques/chromatic aberration::heavy chromatic aberration
+image composition::Techniques::diffraction spikes
+image composition::Techniques::depth of field
+image composition::Techniques::distortion
+image composition::Techniques::dithering
+image composition::Techniques::double exposure
+image composition::Techniques::drop shadow
+image composition::Techniques::emphasis lines
+image composition::Techniques::film grain
+image composition::Techniques::foreshortening
+image composition::Techniques::halftone
+image composition::Techniques::hatching (texture)
+image composition::Techniques/hatching (texture)::linear hatching
+image composition::Techniques/hatching (texture)::crosshatching
+image composition::Techniques/hatching (texture)::woven hatching
+image composition::Techniques::high contrast
+image composition::Techniques::hue shifting
+image composition::Techniques::intentional jpeg artifacts
+image composition::Techniques::lens flare
+image composition::Techniques/lens flare::heavy lens flare
+image composition::Techniques/lens flare::backlighting
+image composition::Techniques/lens flare::overlighting
+image composition::Techniques/lens flare::sidelighting
+image composition::Techniques/lens flare::underlighting
+image composition::Techniques::motion blur
+image composition::Techniques::motion lines
+image composition::Techniques::multiple monochrome
+image composition::Techniques::optical illusion
+image composition::Techniques/optical illusion::anaglyph
+image composition::Techniques/optical illusion::exif thumbnail surprise
+image composition::Techniques/optical illusion::open in internet explorer
+image composition::Techniques/optical illusion::open in winamp
+image composition::Techniques/optical illusion::stereogram
+image composition::Techniques::overexposure
+image composition::Techniques::pointillism
+image composition::Techniques::scanlines
+image composition::Techniques::screentones
+image composition::Techniques::silhouette
+image composition::Techniques::speed lines
+image composition::Techniques::stippling (texture)
+image composition::Techniques::subsurface scattering
+image composition::Techniques::thumbnail surprise
+image composition::Techniques::vignetting
+image composition::Traditional Japanese Patterns::asa no ha (pattern)
+image composition::Traditional Japanese Patterns::egasumi
+image composition::Traditional Japanese Patterns::genjiguruma
+image composition::Traditional Japanese Patterns::goshoguruma
+image composition::Traditional Japanese Patterns::igeta (pattern)
+image composition::Traditional Japanese Patterns::kagome (pattern)
+image composition::Traditional Japanese Patterns::kanoko (pattern)
+image composition::Traditional Japanese Patterns::karakusa (pattern)
+image composition::Traditional Japanese Patterns::kikumon
+image composition::Traditional Japanese Patterns::kikkoumon
+image composition::Traditional Japanese Patterns::kojitsunagi (pattern)
+image composition::Traditional Japanese Patterns::matsu symbol
+image composition::Traditional Japanese Patterns::ryuusuimon
+image composition::Traditional Japanese Patterns::sakuramon
+image composition::Traditional Japanese Patterns::sayagata
+image composition::Traditional Japanese Patterns::seigaiha
+image composition::Traditional Japanese Patterns::shima (pattern)
+image composition::Traditional Japanese Patterns::shippou (pattern)
+image composition::Traditional Japanese Patterns::uchiwa
+image composition::Traditional Japanese Patterns::uroko (pattern)
+image composition::Traditional Japanese Patterns::tatewaku
+image composition::Traditional Japanese Patterns::yagasuri
+image composition::Traditional Japanese Patterns::yukiwa
+image composition::Other Patterns::animal print
+image composition::Other Patterns/animal print::cow print
+image composition::Other Patterns/animal print::leopard print
+image composition::Other Patterns/animal print::shark print
+image composition::Other Patterns/animal print::tiger print
+image composition::Other Patterns/animal print::zebra print
+image composition::Other Patterns::cross print
+image composition::Other Patterns::double happiness
+image composition::Other Patterns::fleur-de-lis
+image composition::Other Patterns::floral print
+image composition::Other Patterns::flower of life
+image composition::Other Patterns::houndstooth
+image composition::Other Patterns::meandros
+image composition::Other Patterns::paisley
+image composition::Other Patterns::polka dot
+image composition::Other Patterns::xiangyun
+image composition::Flaws::adversarial noise
+image composition::Flaws::aliasing
+image composition::Flaws::gif artifacts
+image composition::Flaws::jpeg artifacts
+image composition::Flaws::scan artifacts
+image composition::Flaws/scan artifacts::bleed through
+image composition::Flaws/scan artifacts::crease
+image composition::Flaws::vhs artifacts
+image composition::Flaws::artistic error
+image composition::Flaws/artistic error::bad reflection
+image composition::Flaws/artistic error::extra digits
+image composition::Flaws/artistic error::typo
+image composition::Flaws::bad aspect ratio
+image composition::Flaws::blurry
+image composition::Flaws::censored
+image composition::Flaws::derivative work
+image composition::Flaws/derivative work::photo-referenced
+image composition::Flaws/derivative work::reference photo
+image composition::Flaws/derivative work::screenshot redraw
+image composition::Flaws::moire
+image composition::Flaws/moire::anatomical nonsense
+image composition::Flaws/moire::bad anatomy
+image composition::Flaws/moire::bad feet
+image composition::Flaws/moire::bad hands
+image composition::Flaws/moire::bad proportions
+image composition::Flaws/moire::quality
+image composition::Flaws::reversed
+image composition::Flaws::rotated
+image composition::Flaws::solid color thumbnail
+image composition::Flaws::third-party edit
+image composition::Flaws::watermark
+image composition::Flaws/watermark::third-party watermark
+image composition::Flaws/watermark::web address
+posture::Basic positions::kneeling
+posture::Basic positions/kneeling::on one knee
+posture::Basic positions::lying
+posture::Basic positions/lying::crossed legs
+posture::Basic positions/lying::fetal position
+posture::Basic positions/lying::on back
+posture::Basic positions/lying::on side
+posture::Basic positions/lying::on stomach
+posture::Basic positions::sitting
+posture::Basic positions/sitting::butterfly sitting
+posture::Basic positions/crossed legs::figure four sitting
+posture::Basic positions/sitting::indian style
+posture::Basic positions/indian style::lotus position
+posture::Basic positions/sitting::hugging own legs
+posture::Basic positions/sitting::reclining
+posture::Basic positions/sitting::seiza
+posture::Basic positions/sitting::sitting on person
+posture::Basic positions/sitting on person::sitting on head
+posture::Basic positions/sitting on person::sitting on lap
+posture::Basic positions/sitting on person::shoulder carry
+posture::Basic positions/sitting on person::human chair
+posture::Basic positions/sitting::straddling
+posture::Basic positions/straddling::thigh straddling
+posture::Basic positions/straddling::upright straddle
+posture::Basic positions/sitting::wariza
+posture::Basic positions/sitting::yokozuwari
+posture::Basic positions::standing
+posture::Basic positions/standing::balancing
+posture::Basic positions/standing::legs apart
+posture::Basic positions/standing::standing on one leg
+posture::Movement of the body::crawling
+posture::Movement of the body::idle animation
+posture::Movement of the body::midair
+posture::Movement of the body/midair::falling
+posture::Movement of the body/midair::floating
+posture::Movement of the body/midair::flying
+posture::Movement of the body/midair::jumping
+posture::Movement of the body/jumping::hopping
+posture::Movement of the body/jumping::pouncing
+posture::Movement of the body::running
+posture::Movement of the body::walking
+posture::Movement of the body/walking::walk cycle
+posture::Movement of the body/walking::walking on wall
+posture::Other postures potentially involving the whole body::all fours
+posture::Other postures potentially involving the whole body/all fours::top-down bottom-up
+posture::Other postures potentially involving the whole body/all fours::prostration
+posture::Other postures potentially involving the whole body/all fours::bear position
+posture::Other postures potentially involving the whole body::bowlegged pose
+posture::Other postures potentially involving the whole body::chest stand
+posture::Other postures potentially involving the whole body::chest stand handstand
+posture::Other postures potentially involving the whole body::triplefold
+posture::Other postures potentially involving the whole body::ruppelbend
+posture::Other postures potentially involving the whole body::quadfold
+posture::Other postures potentially involving the whole body::cowering
+posture::Other postures potentially involving the whole body::crucifixion
+posture::Other postures potentially involving the whole body::faceplant
+posture::Other postures potentially involving the whole body/faceplant::full scorpion
+posture::Other postures potentially involving the whole body::fighting stance
+posture::Other postures potentially involving the whole body/fighting stance::battoujutsu stance
+posture::Other postures potentially involving the whole body::spread eagle position
+posture::Other postures potentially involving the whole body::squatting
+posture::Other postures potentially involving the whole body::stretching
+posture::Other postures potentially involving the whole body::superhero landing
+posture::Other postures potentially involving the whole body::upside-down
+posture::Other postures potentially involving the whole body/upside-down::handstand
+posture::Other postures potentially involving the whole body/upside-down::headstand
+posture::Other postures potentially involving the whole body::yoga
+posture::Other postures potentially involving the whole body/yoga::scorpion pose
+posture::Other postures potentially involving the whole body/yoga::revolved head-to-knee pose
+posture::Other rest points of the body::arm support
+posture::Other rest points of the body::head rest
+posture::Posture of the head::looking at viewer
+posture::Posture of the head::looking to the side
+posture::Posture of the head::looking afar
+posture::Posture of the head::head down
+posture::Posture of the head::head tilt
+posture::Posture of the head::head back
+posture::Torso inclination::arched back
+posture::Torso inclination::bent back
+posture::Torso inclination::bent over
+posture::Torso inclination::leaning back
+posture::Torso inclination::leaning forward
+posture::Torso inclination::slouching
+posture::Torso inclination::sway back
+posture::Torso inclination::twisted torso
+posture::Arms::arm behind back
+posture::Arms::arms behind back
+posture::Arms::arm up
+posture::Arms/arm up::arm behind head
+posture::Arms/arm up::akanbe
+posture::Arms/arm up::salute
+posture::Arms/arm up::shushing
+posture::Arms/arm up::v over eye
+posture::Arms/arm up::waving
+posture::Arms/arm up::victory pose
+posture::Arms::arms up
+posture::Arms/arms up::\o/
+posture::Arms/arms up::arms behind head
+posture::Arms/arms up::carry me
+posture::Arms/arms up::heart hands
+posture::Arms/arms up::finger frame
+posture::Arms/arms up::horns pose
+posture::Arms::outstretched arm
+posture::Arms::outstretched arms
+posture::Arms::spread arms
+posture::Arms::arm at side
+posture::Arms::arms at sides
+posture::Arms::airplane arms
+posture::Arms::crossed arms
+posture::Arms::flexing
+posture::Arms::praise the sun
+posture::Arms::reaching
+posture::Arms::shrugging
+posture::Arms::t-pose
+posture::Arms::a-pose
+posture::Arms::v arms
+posture::Arms::w arms
+posture::Arms::stroking own chin
+posture::Arms::outstretched hand
+posture::Arms::hand on own ear
+posture::Arms::hand on own ass
+posture::Arms::hand in pocket
+posture::Arms::v
+posture::Arms::interlocked fingers
+posture::Arms::own hands clasped
+posture::Arms::own hands together
+posture::Arms::star hands
+posture::Hips::contrapposto
+posture::Legs::crossed ankles
+posture::Legs::folded
+posture::Legs::leg up
+posture::Legs::legs up
+posture::Legs/legs up::knees to chest
+posture::Legs/legs up::legs over head
+posture::Legs::leg lift
+posture::Legs::outstretched leg
+posture::Legs::pin legs
+posture::Legs::split
+posture::Legs/split::pigeon pose
+posture::Legs/split::standing split
+posture::Legs::spread legs
+posture::Legs::watson cross
+posture::Legs::uneven footing
+posture::Legs::knees apart feet together
+posture::Legs::knees together feet apart
+posture::Legs::knee up
+posture::Legs::knees up
+posture::Legs::dorsiflexion
+posture::Legs::pigeon-toed
+posture::Legs::plantar flexion
+posture::Legs::toe scrunch
+posture::Legs::tiptoes
+posture::Legs/tiptoes::tiptoe kiss
+posture::Posture of at least two characters::ass-to-ass
+posture::Posture of at least two characters::back-to-back
+posture::Posture of at least two characters::belly-to-belly
+posture::Posture of at least two characters::cheek-to-breast
+posture::Posture of at least two characters::cheek-to-cheek
+posture::Posture of at least two characters::eye contact
+posture::Posture of at least two characters::face-to-face
+posture::Posture of at least two characters::forehead-to-forehead
+posture::Posture of at least two characters::head on chest
+posture::Posture of at least two characters::heads together
+posture::Posture of at least two characters::holding hands
+posture::Posture of at least two characters::leg lock
+posture::Posture of at least two characters::locked arms
+posture::Posture of at least two characters::over the knee
+posture::Posture of at least two characters::nipple-to-nipple
+posture::Posture of at least two characters::noses touching
+posture::Posture of at least two characters::shoulder-to-shoulder
+posture::Posture of at least two characters::tail lock
+posture::Posture of at least three characters::circle formation
+posture::Posture of at least three characters::group hug
+posture::Hugging::hug
+posture::Hugging::hugging object
+posture::Hugging::hugging tail
+posture::Hugging::wing hug
+posture::Hugging::arm hug
+posture::Hugging::hug from behind
+posture::Hugging::waist hug
+posture::Carrying someone::baby carry
+posture::Carrying someone::carrying
+posture::Carrying someone/carrying::carried breast rest
+posture::Carrying someone/carrying::carrying over shoulder
+posture::Carrying someone/carrying::carrying under arm
+posture::Carrying someone/carrying::child carry
+posture::Carrying someone/carrying::fireman's carry
+posture::Carrying someone/carrying::piggyback
+posture::Carrying someone/carrying::princess carry
+posture::Carrying someone/carrying::sitting on shoulder
+posture::Carrying someone/carrying::standing on shoulder
+posture::Poses::rabbit pose
+posture::Poses::paw pose
+posture::Poses::claw pose
+posture::Poses::archer pose
+posture::Poses::bras d'honneur
+posture::Poses::body bridge
+posture::Poses::dojikko pose
+posture::Poses::ghost pose
+posture::Poses::head and hip pose
+posture::Poses::inugami-ke no ichizoku pose
+posture::Poses::letter pose
+posture::Poses::ojou-sama pose
+posture::Poses::saboten pose
+posture::Poses::symmetrical hand pose
+posture::Poses::villain pose
+posture::Poses::zombie pose
+posture::Poses::charizard pose
+posture::Poses::gendou pose
+posture::Poses::henshin pose
+posture::Poses::jojo pose
+posture::Poses/jojo pose::dio brando's pose
+posture::Poses/jojo pose::giorno giovanna's pose
+posture::Poses/jojo pose::superman exposure
+posture::Poses/jojo pose::jonathan joestar's pose
+posture::Poses/jojo pose::kujo jotaro's pose
+posture::Poses::kongou pose
+posture::Poses::kujou karen pose
+posture::Poses::z-move trainer pose
+sex acts::Before sex::presenting own body
+sex acts::Before sex/presenting own body::take your pick
+sex acts::Stimulation::footjob
+sex acts::Stimulation/footjob::double footjob
+sex acts::Stimulation/footjob::implied footjob
+sex acts::Stimulation/footjob::cooperative footjob
+sex acts::Stimulation/footjob::footjob with footwear
+sex acts::Stimulation/footjob with footwear::footjob with shoes
+sex acts::Stimulation/footjob with footwear::footjob with boots
+sex acts::Stimulation/footjob with footwear::footjob with sandals
+sex acts::Stimulation/footjob::footjob with legwear
+sex acts::Stimulation/footjob::two-footed footjob
+sex acts::Stimulation/footjob::reverse footjob
+sex acts::Stimulation/footjob::footjob from behind
+sex acts::Stimulation/footjob::female footjob
+sex acts::Stimulation/footjob::footjob under table
+sex acts::Stimulation/footjob::simulated footjob
+sex acts::Stimulation/footjob::after footjob
+sex acts::Stimulation::feet
+sex acts::Stimulation/feet::licking foot
+sex acts::Stimulation/feet::foot worship
+sex acts::Stimulation/feet::smelling feet
+sex acts::Stimulation::frottage
+sex acts::Stimulation/frottage::armpit sex
+sex acts::Stimulation/frottage::pussyjob
+sex acts::Stimulation/pussyjob::backjob
+sex acts::Stimulation/pussyjob::buttjob
+sex acts::Stimulation/pussyjob::cooperative pussyjob
+sex acts::Stimulation/frottage::kneepit sex
+sex acts::Stimulation/frottage::legjob
+sex acts::Stimulation/frottage::paizuri
+sex acts::Stimulation/paizuri::assisted paizuri
+sex acts::Stimulation/paizuri::autopaizuri
+sex acts::Stimulation/paizuri::cooperative paizuri
+sex acts::Stimulation/paizuri::handsfree paizuri
+sex acts::Stimulation/paizuri::naizuri
+sex acts::Stimulation/paizuri::paizuri over clothes
+sex acts::Stimulation/paizuri::paizuri on lap
+sex acts::Stimulation/paizuri::paizuri under clothes
+sex acts::Stimulation/paizuri::pecjob
+sex acts::Stimulation/paizuri::pectorals
+sex acts::Stimulation/paizuri::perpendicular paizuri
+sex acts::Stimulation/paizuri::stealth paizuri
+sex acts::Stimulation/paizuri::straddling paizuri
+sex acts::Stimulation/paizuri::sideways perpendicular paizuri
+sex acts::Stimulation/frottage::thigh sex
+sex acts::Stimulation::glansjob
+sex acts::Stimulation/glansjob::cloth glansjob
+sex acts::Stimulation::groping
+sex acts::Stimulation/groping::grabbing another's ass
+sex acts::Stimulation/groping::grabbing another's breast
+sex acts::Stimulation/grabbing another's breast::guided breast grab
+sex acts::Stimulation/groping::pectoral grab
+sex acts::Stimulation/pectoral grab::guided pectoral grab
+sex acts::Stimulation/pectoral grab::nipple tweak
+sex acts::Stimulation/groping::crotch grab
+sex acts::Stimulation/crotch grab::guided crotch grab
+sex acts::Stimulation/groping::grabbing own breast
+sex acts::Stimulation/groping::torso grab
+sex acts::Stimulation::hairjob
+sex acts::Stimulation::handjob
+sex acts::Stimulation/handjob::caressing testicles
+sex acts::Stimulation/handjob::double handjob
+sex acts::Stimulation/handjob::cooperative handjob
+sex acts::Stimulation/handjob::nursing handjob
+sex acts::Stimulation/handjob::cuddling handjob
+sex acts::Stimulation/handjob::reverse nursing handjob
+sex acts::Stimulation/handjob::reach-around
+sex acts::Stimulation/handjob::two-handed handjob
+sex acts::Stimulation::masturbation
+sex acts::Stimulation/masturbation::crotch rub
+sex acts::Stimulation/crotch rub::building sex
+sex acts::Stimulation/crotch rub::pillow humping
+sex acts::Stimulation/pillow humping::teddy bear sex
+sex acts::Stimulation/crotch rub::table humping
+sex acts::Stimulation/masturbation::female masturbation
+sex acts::Stimulation/masturbation::futanari masturbation
+sex acts::Stimulation/masturbation::implied masturbation
+sex acts::Stimulation/masturbation::male masturbation
+sex acts::Stimulation/masturbation::masturbation through clothes
+sex acts::Stimulation/masturbation::masturbation under clothes
+sex acts::Stimulation/masturbation::mutual masturbation
+sex acts::Stimulation/masturbation::stealth masturbation
+sex acts::Stimulation/masturbation::tail masturbation
+sex acts::Stimulation::tail
+sex acts::Stimulation/tail::tail insertion
+sex acts::Stimulation/tail::tailjob
+sex acts::Stimulation::oral
+sex acts::Stimulation/oral::anilingus
+sex acts::Stimulation/anilingus::rusty trombone
+sex acts::Stimulation/oral::breast sucking
+sex acts::Stimulation/oral::cunnilingus
+sex acts::Stimulation/cunnilingus::autocunnilingus
+sex acts::Stimulation/cunnilingus::implied cunnilingus
+sex acts::Stimulation/oral::fellatio
+sex acts::Stimulation/fellatio::assisted fellatio
+sex acts::Stimulation/fellatio::autofellatio
+sex acts::Stimulation/fellatio::cum swap
+sex acts::Stimulation/fellatio::deepthroat
+sex acts::Stimulation/fellatio::implied fellatio
+sex acts::Stimulation/fellatio::irrumatio
+sex acts::Stimulation/fellatio::cooperative fellatio
+sex acts::Stimulation/fellatio::multiple penis fellatio
+sex acts::Stimulation/oral::69
+sex acts::Stimulation/69::upright 69
+sex acts::Stimulation/oral::hug and suck
+sex acts::Stimulation/oral::licking testicle
+sex acts::Stimulation/oral::sitting on face
+sex acts::Stimulation/oral::testicle sucking
+sex acts::Stimulation/oral::licking armpit
+sex acts::Group sex::group sex
+sex acts::Group sex::bisexual female
+sex acts::Group sex::bisexual male
+sex acts::Group sex/group sex::oral sandwich
+sex acts::Group sex/group sex::daisy chain
+sex acts::Group sex/group sex::gangbang
+sex acts::Group sex/gangbang::double penetration
+sex acts::Group sex/gangbang::triple penetration
+sex acts::Group sex/group sex::love train
+sex acts::Group sex/group sex::cooperative breast smother
+sex acts::Group sex/group sex::orgy
+sex acts::Group sex/group sex::reverse spitroast
+sex acts::Group sex/group sex::spitroast
+sex acts::Group sex/group sex::teamwork (sexual)
+sex acts::Group sex/group sex::threesome
+sex acts::Group sex/threesome::mmf threesome
+sex acts::Group sex/threesome::ffm threesome
+sex acts::Group sex/threesome::mmm threesome
+sex acts::Group sex/threesome::fff threesome
+sex acts::Group sex/threesome::fdd threesome
+sex acts::Group sex/threesome::mdd threesome
+sex acts::Group sex/threesome::ffd threesome
+sex acts::Group sex/threesome::mmd threesome
+sex acts::Group sex/threesome::ddd threesome
+sex acts::Group sex/threesome::mfd threesome
+sex acts::Group sex/threesome::mmc threesome
+sex acts::Group sex/threesome::ffc threesome
+sex acts::Group sex/threesome::mcc threesome
+sex acts::Group sex/threesome::ccc threesome
+sex acts::Group sex/threesome::mmo threesome
+sex acts::Group sex/threesome::ffo threesome
+sex acts::Group sex/threesome::oom threesome
+sex acts::Group sex/threesome::mfo threesome
+sex acts::Group sex/group sex::foursome
+sex acts::Group sex/group sex::fivesome
+sex acts::Penetration and Insertion::sexual animal insertion
+sex acts::Penetration and Insertion::cervical penetration
+sex acts::Penetration and Insertion::covered penetration
+sex acts::Penetration and Insertion::deep penetration
+sex acts::Penetration and Insertion::food insertion
+sex acts::Penetration and Insertion::inflation
+sex acts::Penetration and Insertion/inflation::cum inflation
+sex acts::Penetration and Insertion/inflation::big belly
+sex acts::Penetration and Insertion/inflation::enema
+sex acts::Penetration and Insertion::large insertion
+sex acts::Penetration and Insertion/large insertion::stomach bulge
+sex acts::Penetration and Insertion::male penetrated
+sex acts::Penetration and Insertion::multiple insertions
+sex acts::Penetration and Insertion::nipple penetration
+sex acts::Penetration and Insertion::nosejob
+sex acts::Penetration and Insertion::object insertion
+sex acts::Penetration and Insertion/object insertion::vaginal object insertion
+sex acts::Penetration and Insertion/object insertion::anal object insertion
+sex acts::Penetration and Insertion::urethral insertion
+sex acts::Penetration and Insertion/urethral insertion::sounding
+sex acts::Penetration and Insertion::fingering
+sex acts::Penetration and Insertion/fingering::anal fingering
+sex acts::Penetration and Insertion/anal fingering::prostate milking
+sex acts::Penetration and Insertion/fingering::fingering through clothes
+sex acts::Penetration and Insertion/fingering through clothes::fingering through panties
+sex acts::Penetration and Insertion/fingering::implied fingering
+sex acts::Penetration and Insertion::fisting
+sex acts::Penetration and Insertion/fisting::anal fisting
+sex acts::Penetration and Insertion/fisting::self fisting
+sex acts::Penetration and Insertion/fisting::double fisting
+sex acts::Penetration and Insertion::sex
+sex acts::Penetration and Insertion/sex::after sex
+sex acts::Penetration and Insertion/after sex::after anal
+sex acts::Penetration and Insertion/after sex::after buttjob
+sex acts::Penetration and Insertion/after sex::after fellatio
+sex acts::Penetration and Insertion/after sex::after fingering
+sex acts::Penetration and Insertion/after sex::after insertion
+sex acts::Penetration and Insertion/after sex::after masturbation
+sex acts::Penetration and Insertion/after sex::after paizuri
+sex acts::Penetration and Insertion/after sex::after rape
+sex acts::Penetration and Insertion/after sex::after urethral
+sex acts::Penetration and Insertion/after sex::after vaginal
+sex acts::Penetration and Insertion/after sex::afterglow
+sex acts::Penetration and Insertion/after sex::clothed after sex
+sex acts::Penetration and Insertion/sex::anal
+sex acts::Penetration and Insertion/anal::double anal
+sex acts::Penetration and Insertion/anal::imminent anal
+sex acts::Penetration and Insertion/anal::pegging
+sex acts::Penetration and Insertion/anal::triple anal
+sex acts::Penetration and Insertion/anal::multiple anal
+sex acts::Penetration and Insertion/sex::clothed sex
+sex acts::Penetration and Insertion/sex::guided penetration
+sex acts::Penetration and Insertion/sex::happy sex
+sex acts::Penetration and Insertion/sex::imminent penetration
+sex acts::Penetration and Insertion/sex::implied sex
+sex acts::Penetration and Insertion/sex::rough sex
+sex acts::Penetration and Insertion/sex::sex from behind
+sex acts::Penetration and Insertion/sex::skull fucking
+sex acts::Penetration and Insertion/skull fucking::ear sex
+sex acts::Penetration and Insertion/skull fucking::eye sex
+sex acts::Penetration and Insertion/sex::tentacle sex
+sex acts::Penetration and Insertion/sex::underwater sex
+sex acts::Penetration and Insertion/sex::vaginal
+sex acts::Penetration and Insertion/vaginal::double vaginal
+sex acts::Penetration and Insertion/vaginal::imminent vaginal
+sex acts::Penetration and Insertion/vaginal::triple vaginal
+sex acts::Same-sex Acts::yaoi
+sex acts::Same-sex Acts/yaoi::bara
+sex acts::Same-sex Acts/yaoi::implied yaoi
+sex acts::Same-sex Acts/yaoi::bulges touching
+sex acts::Same-sex Acts/yaoi::penises touching
+sex acts::Same-sex Acts/yaoi::testicles touching
+sex acts::Same-sex Acts::yuri
+sex acts::Same-sex Acts/yuri::implied yuri
+sex acts::Same-sex Acts/yuri::tribadism
+sex acts::Fetishes::diaper
+sex acts::Fetishes/diaper::adult baby
+sex acts::Fetishes::loli
+sex acts::Fetishes::shota
+sex acts::Fetishes::mature female
+sex acts::Fetishes::mature male
+sex acts::Fetishes::leash pull
+sex acts::Fetishes::pet play
+sex acts::Fetishes/pet play::human dog
+sex acts::Fetishes::pony play
+sex acts::Fetishes::giant
+sex acts::Fetishes::giantess
+sex acts::Fetishes/giantess::miniboy
+sex acts::Fetishes/giantess::minigirl
+sex acts::Fetishes::muscular
+sex acts::Fetishes/muscular::muscular male
+sex acts::Fetishes/muscular::muscular female
+sex acts::Fetishes/muscular::muscular other
+sex acts::Fetishes::plump
+sex acts::Fetishes::curvy
+sex acts::Fetishes/curvy::fat
+sex acts::Fetishes/fat::obese
+sex acts::Fetishes/curvy::skinny
+sex acts::Fetishes::breast expansion
+sex acts::Fetishes::breast smother
+sex acts::Fetishes::lactation
+sex acts::Fetishes/lactation::breastfeeding
+sex acts::Fetishes/lactation::lactation through clothes
+sex acts::Fetishes/lactation::milking machine
+sex acts::Fetishes/milking machine::breast pump
+sex acts::Fetishes::bdsm
+sex acts::Fetishes/bdsm::asphyxiation
+sex acts::Fetishes/asphyxiation::strangling
+sex acts::Fetishes/bdsm::bondage
+sex acts::Fetishes/bondage::bound together
+sex acts::Fetishes/bondage::breast bondage
+sex acts::Fetishes/bondage::predicament bondage
+sex acts::Fetishes/bondage::public bondage
+sex acts::Fetishes/bondage::self bondage
+sex acts::Fetishes/bondage::shibari
+sex acts::Fetishes/shibari::shibari over clothes
+sex acts::Fetishes/shibari::shibari under clothes
+sex acts::Fetishes/bondage::spreader bar
+sex acts::Fetishes/bondage::suspension
+sex acts::Fetishes/bdsm::dominator (bdsm)
+sex acts::Fetishes/bdsm::femdom
+sex acts::Fetishes/femdom::assertive female
+sex acts::Fetishes/femdom::clothed female nude male
+sex acts::Fetishes/femdom::dominatrix
+sex acts::Fetishes/bdsm::humiliation
+sex acts::Fetishes/humiliation::body writing
+sex acts::Fetishes/bdsm::masochism
+sex acts::Fetishes/bdsm::neglect play
+sex acts::Fetishes/bdsm::public use
+sex acts::Fetishes/public use::tally
+sex acts::Fetishes/bdsm::rope walking
+sex acts::Fetishes/bdsm::sadism
+sex acts::Fetishes/bdsm::slave
+sex acts::Fetishes/bdsm::spanked
+sex acts::Fetishes/bdsm::torture
+sex acts::Fetishes/torture::clitoris torture
+sex acts::Fetishes/torture::nipple torture
+sex acts::Fetishes/nipple torture::nipple clamps
+sex acts::Fetishes/nipple torture::nipple pull
+sex acts::Fetishes/torture::ball busting
+sex acts::Fetishes/torture::tickle torture
+sex acts::Fetishes/torture::fire play
+sex acts::Fetishes/torture::ice play
+sex acts::Fetishes/torture::wax play
+sex acts::Fetishes::cum
+sex acts::Fetishes/cum::bukkake
+sex acts::Fetishes/bukkake::cumdump
+sex acts::Fetishes/cum::cum bath
+sex acts::Fetishes/cum::cumdrip
+sex acts::Fetishes/cumdrip::cum puddle
+sex acts::Fetishes/cum::cum in ass
+sex acts::Fetishes/cum::cum in clothes
+sex acts::Fetishes/cum::cum in cup
+sex acts::Fetishes/cum::cum in mouth
+sex acts::Fetishes/cum puddle::cum in throat
+sex acts::Fetishes/cum puddle::cum on tongue
+sex acts::Fetishes/cum::cum in pussy
+sex acts::Fetishes/cum::cum in urethra
+sex acts::Fetishes/cum::cum on body
+sex acts::Fetishes/cum on body::cum on armpits
+sex acts::Fetishes/cum on body::cum on ass
+sex acts::Fetishes/cum on body::cum on back
+sex acts::Fetishes/cum on body::cum on breasts
+sex acts::Fetishes/cum on body::cum on chest
+sex acts::Fetishes/cum on body::cum on feet
+sex acts::Fetishes/cum on body::cum on fingers
+sex acts::Fetishes/cum on body::cum on hair
+sex acts::Fetishes/cum on body::cum on pectorals
+sex acts::Fetishes/cum on body::cum on pussy
+sex acts::Fetishes/cum on body::cum on stomach
+sex acts::Fetishes/cum on stomach::cum in navel
+sex acts::Fetishes/cum::cum on clothes
+sex acts::Fetishes/cum on clothes::cum on eyewear
+sex acts::Fetishes/cum::cum on food
+sex acts::Fetishes/cum::ejaculation
+sex acts::Fetishes/ejaculation::ejaculating while penetrated
+sex acts::Fetishes/ejaculation::pull out
+sex acts::Fetishes/cum::facial
+sex acts::Fetishes/facial::autofacial
+sex acts::Fetishes/cum::felching
+sex acts::Fetishes/cum::gokkun
+sex acts::Fetishes::exhibitionism
+sex acts::Fetishes/exhibitionism::public indecency
+sex acts::Fetishes/public indecency::public nudity
+sex acts::Fetishes/public nudity::zenra
+sex acts::Fetishes/public indecency::public vibrator
+sex acts::Fetishes/exhibitionism::stealth bondage
+sex acts::Fetishes/exhibitionism::stealth sex
+sex acts::Fetishes::cheating
+sex acts::Fetishes/cheating::netorare
+sex acts::Fetishes/cheating::reverse netorare
+sex acts::Fetishes::prostitution
+sex acts::Fetishes::voyeurism
+sex acts::Fetishes/voyeurism::caught
+sex acts::Fetishes/voyeurism::peeking
+sex acts::Fetishes/voyeurism::walk-in
+sex acts::Fetishes:::>=
+sex acts::Fetishes::fucked silly
+sex acts::Fetishes/fucked silly::ahegao
+sex acts::Fetishes/fucked silly::torogao
+sex acts::Fetishes::naughty face
+sex acts::Fetishes::crossdressing
+sex acts::Fetishes/crossdressing::crossdressing (mtf)
+sex acts::Fetishes/crossdressing::crossdressing (ftm)
+sex acts::Fetishes/crossdressing::trap
+sex acts::Fetishes/crossdressing::reverse trap
+sex acts::Fetishes::cuntboy
+sex acts::Fetishes/cuntboy::cuntboy with cuntboy
+sex acts::Fetishes/cuntboy::cuntboy with female
+sex acts::Fetishes/cuntboy::cuntboy with male
+sex acts::Fetishes::futanari
+sex acts::Fetishes/futanari::implied futanari
+sex acts::Fetishes/futanari::full-package futanari
+sex acts::Fetishes/futanari::futa with cuntboy
+sex acts::Fetishes/futanari::futa with female
+sex acts::Fetishes/futa with female::female on futa
+sex acts::Fetishes/futanari::futa with futa
+sex acts::Fetishes/futanari::futa with male
+sex acts::Fetishes/futa with male::futa on male
+sex acts::Fetishes/futa with male::male on futa
+sex acts::Fetishes/futanari::futa without pussy
+sex acts::Fetishes/futa without pussy::futa with newhalf
+sex acts::Fetishes/futa without pussy::newhalf with female
+sex acts::Fetishes/futa without pussy::newhalf with male
+sex acts::Fetishes/futa without pussy::newhalf with newhalf
+sex acts::Fetishes/futanari::male futanari
+sex acts::Fetishes::incest
+sex acts::Fetishes/incest::twincest
+sex acts::Fetishes::inseki
+sex acts::Fetishes::rape
+sex acts::Fetishes/rape::assisted rape
+sex acts::Fetishes::imminent rape
+sex acts::Fetishes::molestation
+sex acts::Fetishes/molestation::sleep molestation
+sex acts::Fetishes/molestation::chikan
+sex acts::Fetishes/molestation::compensated molestation
+sex acts::Fetishes::smother
+sex acts::Fetishes::cross-section
+sex acts::Fetishes/cross-section::internal cumshot
+sex acts::Fetishes/cross-section::x-ray
+sex acts::Fetishes::josou seme
+sex acts::Fetishes::power bottom
+sex acts::Fetishes::futasub
+sex acts::Miscellaneous Fetishes::anatomy
+sex acts::Miscellaneous Fetishes/anatomy::conjoined
+sex acts::Miscellaneous Fetishes/anatomy::extra arms
+sex acts::Miscellaneous Fetishes/anatomy::extra breasts
+sex acts::Miscellaneous Fetishes/anatomy::extra penises
+sex acts::Miscellaneous Fetishes::bestiality
+sex acts::Miscellaneous Fetishes/bestiality::knotting
+sex acts::Miscellaneous Fetishes::condom
+sex acts::Miscellaneous Fetishes/condom::used condom on penis
+sex acts::Miscellaneous Fetishes/condom::condom left inside
+sex acts::Miscellaneous Fetishes/condom::used condom
+sex acts::Miscellaneous Fetishes::defloration
+sex acts::Miscellaneous Fetishes::dirty talk
+sex acts::Miscellaneous Fetishes/dirty talk::requesting internal cumshot
+sex acts::Miscellaneous Fetishes/dirty talk::requesting impregnation
+sex acts::Miscellaneous Fetishes/dirty talk::nantaimori
+sex acts::Miscellaneous Fetishes/dirty talk::nyotaimori
+sex acts::Miscellaneous Fetishes/dirty talk::wakamezake
+sex acts::Miscellaneous Fetishes/wakamezake::bust cup
+sex acts::Miscellaneous Fetishes::female ejaculation
+sex acts::Miscellaneous Fetishes/female ejaculation::pussy juice
+sex acts::Miscellaneous Fetishes::glory hole
+sex acts::Miscellaneous Fetishes/glory hole::glory wall
+sex acts::Miscellaneous Fetishes::human furniture
+sex acts::Miscellaneous Fetishes/human furniture::forniphilia
+sex acts::Miscellaneous Fetishes/human furniture::human toilet
+sex acts::Miscellaneous Fetishes::mating (animal)
+sex acts::Miscellaneous Fetishes::mecha on girl
+sex acts::Miscellaneous Fetishes::necrophilia
+sex acts::Miscellaneous Fetishes::pregnant
+sex acts::Miscellaneous Fetishes/pregnant::giving birth
+sex acts::Miscellaneous Fetishes/pregnant::impregnation
+sex acts::Miscellaneous Fetishes/pregnant::unbirthing
+sex acts::Miscellaneous Fetishes::selfcest
+sex acts::Miscellaneous Fetishes::smelling
+sex acts::Miscellaneous Fetishes/smelling::smelling clothes
+sex acts::Miscellaneous Fetishes/smelling clothes::smelling underwear
+sex acts::Miscellaneous Fetishes/smelling clothes::smelling pantyhose
+sex acts::Miscellaneous Fetishes::tentacles
+sex acts::Miscellaneous Fetishes/tentacles::consensual tentacles
+sex acts::Miscellaneous Fetishes/tentacles::mechanical tentacles
+sex acts::Miscellaneous Fetishes/tentacles::penis tentacle
+sex acts::Miscellaneous Fetishes/tentacles::pussy tentacle
+sex acts::Miscellaneous Fetishes/tentacles::tentacle clothes
+sex acts::Miscellaneous Fetishes/tentacles::tentacle gagged
+sex acts::Miscellaneous Fetishes/tentacles::tentacle on penis
+sex acts::Miscellaneous Fetishes/tentacles::tentacle pit
+sex acts::Miscellaneous Fetishes/tentacle pit::kankaku shadan
+sex acts::Miscellaneous Fetishes/tentacles::tentacles in thighhighs
+sex acts::Miscellaneous Fetishes/tentacles::tentacles under clothes
+sex acts::Miscellaneous Fetishes/tentacles::tentacles on male
+sex acts::Miscellaneous Fetishes/tentacles::too many tentacles
+sex acts::Miscellaneous Fetishes::versatile slime penetration
+sex acts::Miscellaneous Fetishes::vore
+sex acts::'Extreme' Fetishes::scat
+sex acts::'Extreme' Fetishes::peeing
+sex acts::'Extreme' Fetishes/peeing::drinking pee
+sex acts::'Extreme' Fetishes/peeing::golden shower
+sex acts::'Extreme' Fetishes/golden shower::peeing on viewer
+sex acts::'Extreme' Fetishes/peeing::have to pee
+sex acts::'Extreme' Fetishes/peeing::peeing self
+sex acts::'Extreme' Fetishes::guro
+sex acts::'Extreme' Fetishes/guro::amputee
+sex acts::'Extreme' Fetishes/amputee::double amputee
+sex acts::'Extreme' Fetishes/amputee::quadruple amputee
+sex acts::'Extreme' Fetishes/amputee::triple amputee
+# hair color page was not in the download set (the Hair page only cross-references it) — standard danbooru set added
+hair::Colors (standard set)::black hair
+hair::Colors (standard set)::brown hair
+hair::Colors (standard set)::blonde hair
+hair::Colors (standard set)::red hair
+hair::Colors (standard set)::orange hair
+hair::Colors (standard set)::pink hair
+hair::Colors (standard set)::light pink hair
+hair::Colors (standard set)::blue hair
+hair::Colors (standard set)::light blue hair
+hair::Colors (standard set)::purple hair
+hair::Colors (standard set)::lavender hair
+hair::Colors (standard set)::green hair
+hair::Colors (standard set)::teal hair
+hair::Colors (standard set)::silver hair
+hair::Colors (standard set)::white hair
+hair::Colors (standard set)::grey hair
+hair::Colors (standard set)::multicolored hair
+hair::Colors (standard set)::gradient hair
+hair::Colors (standard set)::aqua hair
+hair::Colors (standard set)::black hair
+hair::Colors (standard set)::blonde hair
+hair::Colors (standard set)::blue hair
+hair::Colors (standard set)::brown hair
+hair::Colors (standard set)::green hair
+hair::Colors (standard set)::grey hair
+hair::Colors (standard set)::orange hair
+hair::Colors (standard set)::pink hair
+hair::Colors (standard set)::purple hair
+hair::Colors (standard set)::red hair
+hair::Colors (standard set)::white hair
+hair::Colors (multiple colors)::multicolored hair
+hair::Colors (multiple colors):colored inner hair
+hair::Colors (multiple colors):colored tips
+hair::Colors (multiple colors):gradient hair
+hair::Colors (multiple colors):patterned hair
+hair::Colors (multiple colors):rainbow hair
+hair::Colors (multiple colors):roots
+hair::Colors (multiple colors):split-color hair
+hair::Colors (multiple colors):spotted hair
+hair::Colors (multiple colors):streaked hair
+hair::Colors (multiple colors):striped hair
+hair::Colors (multiple colors):raccoon tails
+hair::Colors (multiple colors):two-tone hair

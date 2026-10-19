@@ -1,0 +1,11 @@
+# Tag database (created by the one-time setup; ~134 MB)
+data/
+
+# Python
+.hfvenv/
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+.DS_Store
