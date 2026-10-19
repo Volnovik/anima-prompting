@@ -73,3 +73,7 @@ data/                        (not in the repo — created by the one-time setup 
 Skill code, scripts, and documentation: **MIT** (see `LICENSE`).
 
 Tag database: derived from the Danbooru wiki via the `kierarkia/danbooru-wiki-2026` dataset, **WTFPL**. Model card: official snapshot, © CircleStone Labs / Comfy Org — bundled for reference with attribution.
+
+## Note: Danbooru data, Gelbooru spelling
+
+Everything in this repo — the tag database, the starter tag set, the wiki bodies and post counts — is **based on Danbooru**, not Gelbooru. The model itself, per its author, prefers **Gelbooru** naming where a tag differs between the two sites, and the skill follows the model there: when a spelling disagrees, it emits the Gelbooru form. In practice the difference is niche and minimal — Danbooru and Gelbooru share the overwhelming majority of their tag vocabulary and spellings, so the Danbooru-based data is directly usable for Anima almost everywhere.
