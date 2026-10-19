@@ -108,27 +108,33 @@ Everything runs on two standard-library Python scripts in `scripts/` (Windows/Li
 - `scripts/tagfetch.py` — on-demand tag lookup (the main tool)
 - `scripts/transform_tags.py` — one-time conversion of the raw dump into prompt-ready spelling
 
-**One-time setup** (once per machine, run from this skill folder; ~134 MB download):
+**One-time setup** (once per machine, run from this skill folder; ~134 MB download). `huggingface_hub` may already be installed on the machine — try your regular Python first, and only fall back to a dedicated venv if it is not:
 
 ```powershell
-# Windows (PowerShell)
+# Windows (PowerShell) — regular Python first
+python -m huggingface_hub download kierarkia/danbooru-wiki-2026 --include "*.jsonl" --local-dir data
+python scripts/transform_tags.py
+# ...only if the download failed because huggingface_hub is not installed:
 python -m venv .hfvenv
 .\.hfvenv\Scripts\pip install -U "huggingface_hub[cli]"
-.\.hfvenv\Scripts\hf.exe download kierarkia/danbooru-wiki-2026 --include "*.jsonl" --local-dir data
+.\.hfvenv\Scripts\python.exe -m huggingface_hub download kierarkia/danbooru-wiki-2026 --include "*.jsonl" --local-dir data
 python scripts/transform_tags.py
 ```
 
 ```bash
-# Linux/macOS
+# Linux/macOS — regular Python first
+python3 -m huggingface_hub download kierarkia/danbooru-wiki-2026 --include "*.jsonl" --local-dir data
+python3 scripts/transform_tags.py
+# ...only if the download failed because huggingface_hub is not installed:
 python3 -m venv .hfvenv
 ./.hfvenv/bin/pip install -U "huggingface_hub[cli]"
-./.hfvenv/bin/hf download kierarkia/danbooru-wiki-2026 --include "*.jsonl" --local-dir data
+./.hfvenv/bin/python -m huggingface_hub download kierarkia/danbooru-wiki-2026 --include "*.jsonl" --local-dir data
 python3 scripts/transform_tags.py
 ```
 
-Step 4 writes `data/danbooru_wiki_prompt.jsonl`: every tag title and alias in prompt-ready form (`_`→space, `(`→`\(`), all other fields byte-identical. After that, lookups just work, and the venv + raw file may be deleted (re-download any time; the raw file is only needed again if the dataset updates). If there is no `data/` file: either run the one-time setup above first, or proceed with the starter list + curated sets below + your own knowledge — state which you did in the answer. The database is a **frozen snapshot (2026-04-28)**: tags whose wiki pages were created after that date are simply absent, so a lookup miss can mean "added later" as much as "never documented".
+`transform_tags.py` (the last line) writes `data/danbooru_wiki_prompt.jsonl`: every tag title and alias in prompt-ready form (`_`→space, `(`→`\(`), all other fields byte-identical. After that, lookups just work, and the venv (if one was made) + raw file may be deleted (re-download any time; the raw file is only needed again if the dataset updates). If there is no `data/` file: either run the one-time setup above first, or proceed with the starter list + curated sets below + your own knowledge — state which you did in the answer. The database is a **frozen snapshot (2026-04-28)**: tags whose wiki pages were created after that date are simply absent, so a lookup miss can mean "added later" as much as "never documented".
 
-**Looking up tags** (the scripts work from any working directory; they resolve `data/` against this skill folder). On Windows call it as `python scripts\tagfetch.py …` — `python3` is usually not a command there, and the venv is only needed for the one-time `hf` download, not for lookups:
+**Looking up tags** (the scripts work from any working directory; they resolve `data/` against this skill folder). On Windows call it as `python scripts\tagfetch.py …` — `python3` is usually not a command there, and the venv (if the fallback used one) is only for the one-time download, not for lookups:
 
 ```bash
 python3 scripts/tagfetch.py tareme                        # exact page; any spelling matches (case, underscores, prompt form)

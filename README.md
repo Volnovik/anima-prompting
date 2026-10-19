@@ -14,25 +14,41 @@ Anima reads prompts through a **small Qwen3-0.6B LLM text encoder with a booru-t
 - **15-step workflow** — user request pinned first, scene expansion bounded by the request, and two final gates: check against the user's request, then verify against the skill. The deliverable is prompt text — seeds-first iteration, never img2img suggestions.
 - **Troubleshooting** — wrong style, washed-out backgrounds, character drift/merging, soft or censored NSFW renders on degraded checkpoints.
 
-## Quick start (one-time, per machine)
+## Install
 
-The skill folder works as-is; the tag database is optional but makes it much better. From the skill folder:
+**Preferred: feed this repo's link to your AI agent.** Tell it something like:
+
+> Add this skill to your skills directory and run its one-time setup: https://github.com/<owner>/anima-prompting
+
+The agent clones the repo into the skills directory (e.g. `~/.dsh/skills/anima-prompting/` for DeepSeek Harness, `~/.claude/skills/anima-prompting/` for Claude Code) and does the rest. Manual install: clone/copy the repo as an `anima-prompting/` folder inside your agent's skills directory — the repo root *is* the skill folder (`SKILL.md` sits at the top level).
+
+## One-time data setup (per machine)
+
+The skill works without the tag database (it falls back to the bundled starter set and curated lists, and says so); the database makes tag lookups much better. `huggingface_hub` may already be installed on the machine — try your regular Python first, and only fall back to a dedicated venv if it isn't. Run from the skill folder:
 
 ```powershell
-# Windows
+# Windows — regular Python first
+python -m huggingface_hub download kierarkia/danbooru-wiki-2026 --include "*.jsonl" --local-dir data
+python scripts/transform_tags.py
+# ...only if the download failed because huggingface_hub is not installed:
 python -m venv .hfvenv
 .\.hfvenv\Scripts\pip install -U "huggingface_hub[cli]"
-.\.hfvenv\Scripts\hf.exe download kierarkia/danbooru-wiki-2026 --include "*.jsonl" --local-dir data
+.\.hfvenv\Scripts\python.exe -m huggingface_hub download kierarkia/danbooru-wiki-2026 --include "*.jsonl" --local-dir data
 python scripts/transform_tags.py
 ```
 
 ```bash
-# Linux/macOS
+# Linux/macOS — regular Python first
+python3 -m huggingface_hub download kierarkia/danbooru-wiki-2026 --include "*.jsonl" --local-dir data
+python3 scripts/transform_tags.py
+# ...only if the download failed because huggingface_hub is not installed:
 python3 -m venv .hfvenv
 ./.hfvenv/bin/pip install -U "huggingface_hub[cli]"
-./.hfvenv/bin/hf download kierarkia/danbooru-wiki-2026 --include "*.jsonl" --local-dir data
+./.hfvenv/bin/python -m huggingface_hub download kierarkia/danbooru-wiki-2026 --include "*.jsonl" --local-dir data
 python3 scripts/transform_tags.py
 ```
+
+The venv (if created) is only for the download — tag lookups use standard-library Python. The raw dump and the venv may be deleted afterwards; the scripts only read `data/danbooru_wiki_prompt.jsonl`.
 
 Smoke test (works from any working directory):
 
