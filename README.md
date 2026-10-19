@@ -18,7 +18,7 @@ Anima reads prompts through a **small Qwen3-0.6B LLM text encoder with a booru-t
 
 **Preferred: feed this repo's link to your AI agent.** Tell it something like:
 
-> Add this skill to your skills directory and run its one-time setup: https://github.com/<owner>/anima-prompting
+> Add this skill to your skills directory and run its one-time setup: https://github.com/Volnovik/anima-prompting
 
 The agent clones the repo into the skills directory (e.g. `~/.dsh/skills/anima-prompting/` for DeepSeek Harness, `~/.claude/skills/anima-prompting/` for Claude Code) and does the rest. Manual install: clone/copy the repo as an `anima-prompting/` folder inside your agent's skills directory — the repo root *is* the skill folder (`SKILL.md` sits at the top level).
 
