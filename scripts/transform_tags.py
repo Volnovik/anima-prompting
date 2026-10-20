@@ -16,6 +16,15 @@ What it does:
     (booru "asuna_(blue_archive)" becomes the prompt-ready "asuna \\(blue archive\\)")
   - every other field (body, category, post_count, ...) byte-identical
   - one JSON object per line, ensure_ascii=False (CJK kept readable)
+  - refuses to convert a file that is already prompt-ready: feeding the
+    prompt file back in as input would double-escape every tag's parens
+    (a tag stored as \\( becomes \\\\() and corrupt the database
+
+Display note: in the .jsonl output the escape backslash appears doubled —
+the tag value  asuna \\(blue archive\\)  is stored in the raw file text as
+asuna \\\\ (blue archive\\\\) . That is standard JSON escaping, not a double
+escape: tagfetch.py decodes it and prints the single-backslash form. Copy
+tag strings from tagfetch.py output, never from the raw file text.
 
 Run it once after downloading the raw dataset. tagfetch.py works on either
 file, but the prompt file gives copy-paste-ready tag strings.
@@ -43,10 +52,36 @@ def resolve_input() -> str:
              f"(hf download --repo-type dataset kierarkia/danbooru-wiki-2026 --include '*.jsonl' --local-dir {DATA_DIR})")
 
 
+def already_prompt_ready(path: str) -> bool:
+    """True if the file is (almost certainly) an already-transformed prompt
+    file. In raw wiki data titles/aliases contain no backslash-paren at all
+    (a handful of ASCII-art tag names excepted); in prompt-ready data every
+    paren in titles/aliases is preceded by a backslash."""
+    total = escaped = 0
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            r = json.loads(line)
+            for v in [r.get("title", "")] + list(r.get("other_names") or []):
+                total += v.count("(") + v.count(")")
+                escaped += v.count("\\(") + v.count("\\)")
+    return total > 0 and escaped * 2 > total
+
+
 def main() -> int:
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     path = args[0] if len(args) > 0 else resolve_input()
     out = args[1] if len(args) > 1 else str(DATA_DIR / PROMPT_NAME)
+
+    if Path(path).name == PROMPT_NAME or already_prompt_ready(path):
+        sys.exit(f"input {path} is already prompt-ready (its title/alias parens are "
+                 f"already escaped). Converting it again would double-escape every tag "
+                 f"and corrupt the database. Pass the RAW dataset "
+                 f"(danbooru_wiki_dataset_*.jsonl) as [input.jsonl] instead, or omit the "
+                 f"argument to convert the newest raw file in {DATA_DIR}.")
+
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
     n = 0
