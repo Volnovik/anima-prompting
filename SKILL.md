@@ -152,7 +152,7 @@ The output gives the **prompt-ready title** (copy it verbatim into the prompt), 
 - **Copy the prompt-ready title verbatim — never re-introduce underscores from memory** or from a raw slug/URL. Prompt form is lowercase with spaces; `score_N` is the only exception.
 - **Read the body before using an unfamiliar tag** — it says what the tag actually means. (`pants pull` = pants pulled down from their normal position; `downpants` = a glimpse down the back of pants — completely different things, easy to confuse.)
 - Resolve aliases to the canonical title: users/LLMs usually produce the alias, the model wants the title — the title printed by `tagfetch.py` is the exact prompt string.
-- If an exact/`--list` query misses, the concept may simply be named differently — run `--in-body` on a keyword (e.g. "who carries a FAMAS?" → finds `asuna (blue archive)`).
+- If an exact/`--list` query misses, the concept may simply be named differently — run `--in-body` on a keyword (e.g. "who carries a FAMAS?" → finds `asuna \(blue archive\)`, already in prompt-ready escaped-paren form).
 - The database covers the tags that **had a Danbooru wiki page** as of the snapshot (2026-04-28). Model-known tags without one (score tags, most human quality words, most time words) are absent from it — the curated sets below still apply. Never conclude a valid tag "doesn't exist" because a lookup came up empty — a miss can just mean the page post-dates the snapshot.
 - `post_count` = how stereotyped/strong a tag's meaning is (high = strong training exposure and bias; a rare tag may do almost nothing) — and the proxy for how well the model knows a character.
 - **Same name, different franchise:** the same character name often has separate tags per franchise (`amatsukaze (kancolle)` ≠ `amatsukaze (azur lane)`). Check the parenthetical; if the character has no entry in the database, identify them in prose — never borrow another franchise's tag.
@@ -190,6 +190,7 @@ Also know:
 - **Non-anime art has its own door.** For abstract/painterly/digital-art looks, start the prompt with the dataset tag `ye-pop` or `deviantart` + newline (see the Prompt structure section) instead of fighting the anime bias.
 - **Nested tags are normal, not a mistake.** Booru lists `jacket` *and* `red jacket` on the same image. Including the general and the specific is standard.
 - **When in doubt about a tag's meaning, check the database** — `post_count` tells you how strongly the model was trained on that exact meaning. Never conclude a tag "doesn't exist" from a miss: the database only holds tags with a wiki page.
+- **Escape literal parens in tag names — training convention.** The model saw booru tag parens backslash-escaped: `card (medium)` is written `card \(medium\)` in a prompt (same for emotes and disambiguators: `>:(` → `>:\(`, `amatsukaze (kancolle)` → `amatsukaze \(kancolle\)`). `scripts/transform_tags.py` applies exactly this rule when building the database, so strings from `tagfetch.py` and `references/starter-tags.txt` are already in prompt form — but a parenthesized tag taken from a booru URL or slug needs the backslashes added by hand before it goes into a prompt.
 
 ## Troubleshooting — when the user is not ok with the result
 

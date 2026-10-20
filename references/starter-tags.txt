@@ -2,6 +2,8 @@
 # Parsed from danbooru tag group wiki pages, Oct 2026.
 # Line format: group::section::tag   (section may contain subcategory after /)
 # Tag names are prompt-ready (lowercase, spaces). Copy into prompts verbatim.
+# Literal parens are backslash-escaped per the training convention
+# (booru "card (medium)" is prompt-ready "card \(medium\)"); section names keep plain parens.
 backgrounds::Colors::aqua background
 backgrounds::Colors::black background
 backgrounds::Colors::blue background
@@ -101,9 +103,9 @@ backgrounds::Objects and Nouns::sparkle
 backgrounds::Objects and Nouns::spider web background
 backgrounds::Objects and Nouns::spider web
 backgrounds::Objects and Nouns::star symbol background
-backgrounds::Objects and Nouns::star (symbol)
+backgrounds::Objects and Nouns::star \(symbol\)
 backgrounds::Objects and Nouns::starry sky background
-backgrounds::Objects and Nouns::star (sky)
+backgrounds::Objects and Nouns::star \(sky\)
 backgrounds::Objects and Nouns::text background
 backgrounds::Objects and Nouns::text focus
 backgrounds::Objects and Nouns::weapon background
@@ -210,7 +212,7 @@ body parts::Torso/stomach::belly
 body parts::Torso/stomach::navel
 body parts::Torso/navel::covered navel
 body parts::Torso/stomach::obliques
-body parts::Torso/stomach::stomach (organ)
+body parts::Torso/stomach::stomach \(organ\)
 body parts::Torso::testicles
 body parts::Torso/testicles::covered testicles
 body parts::Torso/testicles::small testicles
@@ -326,7 +328,7 @@ face tags::Emotions::rolling eyes
 face tags::Emotions::sad
 face tags::Emotions/sad::depressed
 face tags::Emotions/sad::frown
-face tags::Emotions/sad::gloom (expression)
+face tags::Emotions/sad::gloom \(expression\)
 face tags::Emotions/sad::tears
 face tags::Emotions::scared
 face tags::Emotions/scared::panicking
@@ -385,7 +387,7 @@ face tags::Surprised / Scared / Sad::sobbing
 face tags::Surprised / Scared / Sad::traumatized
 face tags::Surprised / Scared / Sad::turn pale
 face tags::Surprised / Scared / Sad::wavy mouth
-face tags::Emotes::;)
+face tags::Emotes::;\)
 face tags::Emotes/:d::;d
 face tags::Emotes/:d::xd
 face tags::Emotes/:d::d:
@@ -399,8 +401,8 @@ face tags::Emotes:::p
 face tags::Emotes/:p::;p
 face tags::Emotes:::q
 face tags::Emotes/:q::;q
-face tags::Emotes::>:)
-face tags::Emotes::>:(
+face tags::Emotes::>:\)
+face tags::Emotes::>:\(
 face tags::Emotes:::t
 face tags::Emotes/:t:::エ
 face tags::Emotes:::/
@@ -420,7 +422,7 @@ face tags::Emotes::o o
 face tags::Emotes/o o::0 0
 face tags::Emotes/o o::. .
 face tags::Emotes::^ ^
-face tags::Emotes/. .::\(^o^)/
+face tags::Emotes/. .::\(^o^\)/
 face tags::Emotes/^ ^::^q^
 face tags::Emotes::> <
 face tags::Emotes::@ @
@@ -676,8 +678,8 @@ image composition::Composition/zoom layer::projected inset
 image composition::Format::3d
 image composition::Format::anime screenshot
 image composition::Format::artbook
-image composition::Format::calendar (medium)
-image composition::Format::card (medium)
+image composition::Format::calendar \(medium\)
+image composition::Format::card \(medium\)
 image composition::Format::comic
 image composition::Format/comic::1koma
 image composition::Format/comic::2koma
@@ -703,7 +705,7 @@ image composition::Format::fake screenshot
 image composition::Format/fake screenshot::fake phone screenshot
 image composition::Format::game asset
 image composition::Format::game screenshot
-image composition::Format::gyotaku (medium)
+image composition::Format::gyotaku \(medium\)
 image composition::Format::high dynamic range
 image composition::Format::highres
 image composition::Format/highres::absurdres
@@ -729,7 +731,7 @@ image composition::Format::shitajiki
 image composition::Format::tall image
 image composition::Format::tegaki
 image composition::Format::transparent background
-image composition::Format::triptych (art)
+image composition::Format::triptych \(art\)
 image composition::Format::thumbnail collage
 image composition::Format::vector trace
 image composition::Format/vector trace::official wallpaper
@@ -830,7 +832,7 @@ image composition::Techniques::emphasis lines
 image composition::Techniques::film grain
 image composition::Techniques::foreshortening
 image composition::Techniques::halftone
-image composition::Techniques::hatching (texture)
+image composition::Techniques::hatching \(texture\)
 image composition::Techniques/hatching (texture)::linear hatching
 image composition::Techniques/hatching (texture)::crosshatching
 image composition::Techniques/hatching (texture)::woven hatching
@@ -858,30 +860,30 @@ image composition::Techniques::scanlines
 image composition::Techniques::screentones
 image composition::Techniques::silhouette
 image composition::Techniques::speed lines
-image composition::Techniques::stippling (texture)
+image composition::Techniques::stippling \(texture\)
 image composition::Techniques::subsurface scattering
 image composition::Techniques::thumbnail surprise
 image composition::Techniques::vignetting
-image composition::Traditional Japanese Patterns::asa no ha (pattern)
+image composition::Traditional Japanese Patterns::asa no ha \(pattern\)
 image composition::Traditional Japanese Patterns::egasumi
 image composition::Traditional Japanese Patterns::genjiguruma
 image composition::Traditional Japanese Patterns::goshoguruma
-image composition::Traditional Japanese Patterns::igeta (pattern)
-image composition::Traditional Japanese Patterns::kagome (pattern)
-image composition::Traditional Japanese Patterns::kanoko (pattern)
-image composition::Traditional Japanese Patterns::karakusa (pattern)
+image composition::Traditional Japanese Patterns::igeta \(pattern\)
+image composition::Traditional Japanese Patterns::kagome \(pattern\)
+image composition::Traditional Japanese Patterns::kanoko \(pattern\)
+image composition::Traditional Japanese Patterns::karakusa \(pattern\)
 image composition::Traditional Japanese Patterns::kikumon
 image composition::Traditional Japanese Patterns::kikkoumon
-image composition::Traditional Japanese Patterns::kojitsunagi (pattern)
+image composition::Traditional Japanese Patterns::kojitsunagi \(pattern\)
 image composition::Traditional Japanese Patterns::matsu symbol
 image composition::Traditional Japanese Patterns::ryuusuimon
 image composition::Traditional Japanese Patterns::sakuramon
 image composition::Traditional Japanese Patterns::sayagata
 image composition::Traditional Japanese Patterns::seigaiha
-image composition::Traditional Japanese Patterns::shima (pattern)
-image composition::Traditional Japanese Patterns::shippou (pattern)
+image composition::Traditional Japanese Patterns::shima \(pattern\)
+image composition::Traditional Japanese Patterns::shippou \(pattern\)
 image composition::Traditional Japanese Patterns::uchiwa
-image composition::Traditional Japanese Patterns::uroko (pattern)
+image composition::Traditional Japanese Patterns::uroko \(pattern\)
 image composition::Traditional Japanese Patterns::tatewaku
 image composition::Traditional Japanese Patterns::yagasuri
 image composition::Traditional Japanese Patterns::yukiwa
@@ -1276,7 +1278,7 @@ sex acts::Group sex/group sex::cooperative breast smother
 sex acts::Group sex/group sex::orgy
 sex acts::Group sex/group sex::reverse spitroast
 sex acts::Group sex/group sex::spitroast
-sex acts::Group sex/group sex::teamwork (sexual)
+sex acts::Group sex/group sex::teamwork \(sexual\)
 sex acts::Group sex/group sex::threesome
 sex acts::Group sex/threesome::mmf threesome
 sex acts::Group sex/threesome::ffm threesome
@@ -1417,7 +1419,7 @@ sex acts::Fetishes/shibari::shibari over clothes
 sex acts::Fetishes/shibari::shibari under clothes
 sex acts::Fetishes/bondage::spreader bar
 sex acts::Fetishes/bondage::suspension
-sex acts::Fetishes/bdsm::dominator (bdsm)
+sex acts::Fetishes/bdsm::dominator \(bdsm\)
 sex acts::Fetishes/bdsm::femdom
 sex acts::Fetishes/femdom::assertive female
 sex acts::Fetishes/femdom::clothed female nude male
@@ -1500,8 +1502,8 @@ sex acts::Fetishes/fucked silly::ahegao
 sex acts::Fetishes/fucked silly::torogao
 sex acts::Fetishes::naughty face
 sex acts::Fetishes::crossdressing
-sex acts::Fetishes/crossdressing::crossdressing (mtf)
-sex acts::Fetishes/crossdressing::crossdressing (ftm)
+sex acts::Fetishes/crossdressing::crossdressing \(mtf\)
+sex acts::Fetishes/crossdressing::crossdressing \(ftm\)
 sex acts::Fetishes/crossdressing::trap
 sex acts::Fetishes/crossdressing::reverse trap
 sex acts::Fetishes::cuntboy
@@ -1567,7 +1569,7 @@ sex acts::Miscellaneous Fetishes/glory hole::glory wall
 sex acts::Miscellaneous Fetishes::human furniture
 sex acts::Miscellaneous Fetishes/human furniture::forniphilia
 sex acts::Miscellaneous Fetishes/human furniture::human toilet
-sex acts::Miscellaneous Fetishes::mating (animal)
+sex acts::Miscellaneous Fetishes::mating \(animal\)
 sex acts::Miscellaneous Fetishes::mecha on girl
 sex acts::Miscellaneous Fetishes::necrophilia
 sex acts::Miscellaneous Fetishes::pregnant
@@ -1639,15 +1641,15 @@ hair::Colors (standard set)::purple hair
 hair::Colors (standard set)::red hair
 hair::Colors (standard set)::white hair
 hair::Colors (multiple colors)::multicolored hair
-hair::Colors (multiple colors):colored inner hair
-hair::Colors (multiple colors):colored tips
-hair::Colors (multiple colors):gradient hair
-hair::Colors (multiple colors):patterned hair
-hair::Colors (multiple colors):rainbow hair
-hair::Colors (multiple colors):roots
-hair::Colors (multiple colors):split-color hair
-hair::Colors (multiple colors):spotted hair
-hair::Colors (multiple colors):streaked hair
-hair::Colors (multiple colors):striped hair
-hair::Colors (multiple colors):raccoon tails
-hair::Colors (multiple colors):two-tone hair
+hair::Colors (multiple colors)::colored inner hair
+hair::Colors (multiple colors)::colored tips
+hair::Colors (multiple colors)::gradient hair
+hair::Colors (multiple colors)::patterned hair
+hair::Colors (multiple colors)::rainbow hair
+hair::Colors (multiple colors)::roots
+hair::Colors (multiple colors)::split-color hair
+hair::Colors (multiple colors)::spotted hair
+hair::Colors (multiple colors)::streaked hair
+hair::Colors (multiple colors)::striped hair
+hair::Colors (multiple colors)::raccoon tails
+hair::Colors (multiple colors)::two-tone hair
