@@ -151,15 +151,7 @@ The output gives the **prompt-ready title** (copy it verbatim into the prompt), 
 - If an exact/`--list` query misses, the concept may simply be named differently — run `--in-body` on a keyword (e.g. "who carries a FAMAS?" → finds `asuna (blue archive)`).
 - The database covers the tags that **had a Danbooru wiki page** as of the snapshot (2026-04-28). Model-known tags without one (score tags, most human quality words, most time words) are absent from it — the curated sets below still apply. Never conclude a valid tag "doesn't exist" because a lookup came up empty — a miss can just mean the page post-dates the snapshot.
 - `post_count` = how stereotyped/strong a tag's meaning is (high = strong training exposure and bias; a rare tag may do almost nothing) — and the proxy for how well the model knows a character.
-- Where a tag differs between Danbooru and Gelbooru, **prefer the Gelbooru spelling** (the model's training naming). For artists, your own knowledge of well-known names/aliases is usually enough (or ask the user).
 - **Same name, different franchise:** the same character name often has separate tags per franchise (`amatsukaze (kancolle)` ≠ `amatsukaze (azur lane)`). Check the parenthetical; if the character has no entry in the database, identify them in prose — never borrow another franchise's tag.
-
-**Curated model-known tags** (✓ = has a Danbooru wiki page, confirm with `scripts/tagfetch.py`; unmarked = absent from the wiki but known to the model from training — use exactly as spelled):
-- **Meta (generalization tags)**: `highres` ✓, `absurdres` ✓, `anime screenshot` ✓, `official art` ✓, `jpeg artifacts` ✓
-- **Quality**: `masterpiece` (its wiki page is a stub saying "do not use" — ignore it; the card's recommended prefix wins), `best quality, good quality, normal quality, low quality, worst quality` · `score_1` … `score_10`
-- **Time**: `year 2025`, `year 2024`, … · `newest, recent, mid, early` · `old` ✓
-- **Safety**: `safe`, `sensitive`, `nsfw`, `explicit` — each has a wiki page, but it is a stub (post_count 0) whose body is Danbooru *search syntax* ("Use {{is:sfw}} instead.") — that is not a prompt tag: use the rating spelled here and ignore the stub's advice
-- **Background anchors** (the washout/blank-wall bias family): `simple background` ✓, `white background` ✓, `dark background` ✓, `detailed background` ✓
 
 **Invented "pseudo-tags"**: Anima accepts invented tag-style phrases for concepts booru never tagged (`platinum-blonde high twintails`), far better than a long prose workaround — but don't go full ham (`85mm anime cinematic lens` doesn't exist).
 
@@ -169,7 +161,7 @@ Tags that **completely define** the image instead of adding a property. In booru
 
 | Trigger word / tag | What it actually does in Anima | LLM mistake | Do this instead |
 |---|---|---|---|
-| `high contrast` (DB name `high_contrast`; the hyphen form `high-contrast` is not a tag) | A specific, extreme, posterized high-contrast style — the image is *defined* by it | Writing "high contrast" in prose for "punchy, vibrant colors" | Name the actual colors (`crimson and teal palette`) — or `saturated` (real but weak); otherwise drop the phrase |
+| `high contrast` (the hyphen form `high-contrast` is not a tag) | A specific, extreme, posterized high-contrast style — the image is *defined* by it | Writing "high contrast" in prose for "punchy, vibrant colors" | Name the actual colors (`crimson and teal palette`) — or `saturated` (real but weak); otherwise drop the phrase |
 | `anime` (meta/screencap anchor; a known model tag that is **not** in the wiki database) | Anchors screencap/anime-styling look | Writing "anime style" in prose — the model is *already* anime, the extra word drags the look | Just describe the subject; style via artist tags or specific look tags |
 | `anime_coloring`, `cel_shading_(2d)` | Specific flat cel-shaded fill style (alias of each other) | "clean cel shading" in prose | Use the tag deliberately when that look is wanted; otherwise avoid the word |
 | `line art` / `line_art` (canonical tag: `lineart`, one word) | Line art only — black outlines, **no fill color** | "sharp, clean line art" in prose → uncolored line drawing | `lineart` only when that look is wanted; for "crisp lines" say nothing or use an artist tag |
@@ -205,7 +197,7 @@ Check in this order, and fix the prompt, not the image:
 4. **Style misbehaving** → check quality tags, `score_*` usage (forbidden on Aesthetic), sampler choice, and the trap table first; fight the style/artist you are against via the negative (`artist name` slot).
 5. **A concept seems "unknown"** → probably untagged; try a pseudo-tag before blaming the model.
 6. **Prose not landing** → re-read as an image caption: one visible fact per clause, character named in every clause, names capitalized, pure NL ≥2 sentences.
-7. **Non-anime look collapsing to anime** → add the `ye-pop` / `deviantart` dataset-tag header.
+7. **Non-anime look collapsing to anime** → add the define non anime features, like "nose, lips"
 8. **Consistent misbehavior across seeds** → a **bias**, not a seed problem: find the tag whose dataset carries it (`post_count` + wiki body) and push it into the negative, or rephrase as a different tag.
 9. **Scope note**: this skill delivers **prompts**, not images. If the prompt alone cannot fix it, reaching for img2img/inpainting (the author's Part 5 article, civitai 34963 — see `references/prompting-guide.md` Sources) is the user's call — never suggest it as a prompt fix.
 
